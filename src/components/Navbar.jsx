@@ -31,9 +31,13 @@ const Navbar = () => {
     { name: t.nav.contact, path: '/contact' },
   ];
 
+  const isHomePage = location.pathname === '/';
+
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-gradient-primary backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isHomePage 
+        ? (isScrolled ? 'bg-gradient-primary backdrop-blur-sm shadow-lg' : 'bg-transparent')
+        : 'bg-gradient-primary'
     } ${language === 'ar' ? 'rtl' : 'ltr'}`}>
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">

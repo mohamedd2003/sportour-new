@@ -374,8 +374,8 @@ const SportDetail = () => {
                       selected={selectedDate}
                       onChange={(date) => setSelectedDate(date)}
                       minDate={new Date()}
-                      className="w-full p-2 text-sm border rounded-lg sm:p-3 border-primary-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 sm:text-base"
-                      dateFormat="MMMM d, yyyy"
+                      className="w-full p-2 text-sm text-white border rounded-lg sm:p-3 border-primary-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 sm:text-base"
+                      dateFormat="d MMMM yyyy"
                     />
                   </div>
 
