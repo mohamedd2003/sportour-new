@@ -357,7 +357,7 @@ const SportDetail = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="w-full lg:col-span-1"
+            className="w-[80%] md:w-full lg:col-span-1"
           >
             <div className="sticky p-2 top-24 md:p-4 lg:p-0">
               <div className="p-4 bg-white border shadow-xl sm:p-6 rounded-2xl border-primary-100">
