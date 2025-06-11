@@ -323,7 +323,7 @@ const SportDetail = () => {
 
               {/* Tabs */}
               <div className="mb-8 border-b border-primary-200">
-                <nav className="flex space-x-8">
+                <nav className="flex space-x-4 md:space-x-8">
                   {tabs.map((tab) => (
                     <button
                       key={tab.id}
