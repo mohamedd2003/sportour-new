@@ -45,7 +45,7 @@ const SportDetail = () => {
       case 'overview':
         return (
           <div className="space-y-6">
-            <p className="text-lg leading-relaxed text-secondary-700">
+            <p className="text-sm leading-relaxed md:text-lg text-secondary-700">
               {sport.fullDescription}
             </p>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -323,7 +323,7 @@ const SportDetail = () => {
 
               {/* Tabs */}
               <div className="mb-8 border-b border-primary-200">
-                <nav className="flex space-x-4 md:space-x-8">
+                <nav className="flex flex-wrap space-x-4 md:space-x-8">
                   {tabs.map((tab) => (
                     <button
                       key={tab.id}
@@ -357,7 +357,7 @@ const SportDetail = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="w-[80%] md:w-full lg:col-span-1"
+            className="w-full lg:col-span-1"
           >
             <div className="sticky p-2 top-24 md:p-4 lg:p-0">
               <div className="p-4 bg-white border shadow-xl sm:p-6 rounded-2xl border-primary-100">
