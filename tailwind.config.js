@@ -52,9 +52,18 @@ export default {
         '88': '22rem',
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #9e8e78 0%, #456161 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #456161 0%, #2c3e50 100%)',
         'gradient-secondary': 'linear-gradient(135deg, #456161 0%, #9e8e78 100%)',
-        'gradient-light': 'linear-gradient(135deg, #ffffff 0%, #f8f7f5 100%)',
+        'gradient-light': 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'translateY(-10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        }
+      },
+      animation: {
+        'fade-in': 'fade-in 0.3s ease-out',
       }
     },
   },

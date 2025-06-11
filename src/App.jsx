@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import SportDetail from './pages/SportDetail';
 import SportsListing from './pages/SportsListing';
 import Dashboard from './pages/Dashboard';
+import Contact from './pages/Contact';
+import About from './pages/About';
 import './index.css';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
               <Route path="/sports" element={<SportsListing />} />
               <Route path="/sports/:sportName" element={<SportDetail />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
           <Footer />
