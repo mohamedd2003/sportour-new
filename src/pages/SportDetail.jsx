@@ -357,9 +357,9 @@ const SportDetail = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="lg:col-span-1"
+            className="lg:col-span-1 w-full"
           >
-            <div className="sticky top-24">
+            <div className="sticky top-24 p-4 lg:p-0">
               <div className="bg-white p-6 rounded-2xl shadow-xl border border-primary-100">
                 <h3 className="text-xl font-semibold text-secondary-800 mb-6">
                   {t.sportDetails.booking}
@@ -381,7 +381,7 @@ const SportDetail = () => {
 
                   <div className="flex items-center justify-between py-4 border-t border-primary-100">
                     <span className="text-sm text-secondary-600">{t.sportDetails.price}:</span>
-                    <span className="text-3xl font-bold text-primary-600">
+                    <span className="text-3xl font-bold text-primary-600 whitespace-nowrap">
                       {sport.price} {t.sports.egp}
                     </span>
                   </div>
