@@ -48,26 +48,26 @@ const SportDetail = () => {
             <p className="text-lg text-secondary-700 leading-relaxed">
               {sport.fullDescription}
             </p>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="flex items-center space-x-3">
-                <Clock className="text-primary-500" size={24} />
-                <div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="flex items-start space-x-3">
+                <Clock className="text-primary-500 flex-shrink-0" size={24} />
+                <div className="flex-grow min-w-0">
                   <p className="font-semibold text-secondary-800">{t.sportDetails.duration}</p>
-                  <p className="text-secondary-600">{sport.duration}</p>
+                  <p className="text-secondary-600 break-words">{sport.duration}</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <Award className="text-primary-500" size={24} />
-                <div>
+              <div className="flex items-start space-x-3">
+                <Award className="text-primary-500 flex-shrink-0" size={24} />
+                <div className="flex-grow min-w-0">
                   <p className="font-semibold text-secondary-800">{t.sportDetails.difficulty}</p>
-                  <p className="text-secondary-600">{sport.difficulty}</p>
+                  <p className="text-secondary-600 break-words">{sport.difficulty}</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <Users className="text-primary-500" size={24} />
-                <div>
+              <div className="flex items-start space-x-3">
+                <Users className="text-primary-500 flex-shrink-0" size={24} />
+                <div className="flex-grow min-w-0">
                   <p className="font-semibold text-secondary-800">{t.sportDetails.groupSize}</p>
-                  <p className="text-secondary-600">{sport.groupSize}</p>
+                  <p className="text-secondary-600 break-words">{sport.groupSize}</p>
                 </div>
               </div>
             </div>
@@ -285,7 +285,7 @@ const SportDetail = () => {
               </div>
 
               {/* Image Gallery */}
-              <div className="grid grid-cols-4 gap-4 mb-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                 {sport.gallery.map((image, index) => (
                   <motion.div
                     key={index}
