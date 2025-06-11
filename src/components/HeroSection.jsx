@@ -15,7 +15,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline
-          className="object-cover w-full h-full"
+          className="absolute object-cover w-auto h-auto min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:object-cover"
         >
           <source src="/src/assets/Hero.MP4" type="video/mp4" />
         </video>
