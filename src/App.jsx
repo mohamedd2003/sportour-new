@@ -1,14 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
+import { Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import SportDetail from './pages/SportDetail';
-import SportsListing from './pages/SportsListing';
-import Dashboard from './pages/Dashboard';
-import Contact from './pages/Contact';
-import About from './pages/About';
+import LazyLoading from './components/LazyLoading/LazyLoading';
 import './index.css';
+
+// Lazy load all page components
+const Home = lazy(() => import('./pages/Home'));
+const SportDetail = lazy(() => import('./pages/SportDetail'));
+const SportsListing = lazy(() => import('./pages/SportsListing'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const Contact = lazy(() => import('./pages/Contact'));
+const About = lazy(() => import('./pages/About'));
 
 function App() {
   return (
@@ -17,14 +21,16 @@ function App() {
         <div className="min-h-screen">
           <Navbar />
           <main>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/sports" element={<SportsListing />} />
-              <Route path="/sports/:sportName" element={<SportDetail />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/about" element={<About />} />
-            </Routes>
+            <Suspense fallback={<LazyLoading />}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/sports" element={<SportsListing />} />
+                <Route path="/sports/:sportName" element={<SportDetail />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/about" element={<About />} />
+              </Routes>
+            </Suspense>
           </main>
           <Footer />
         </div>
