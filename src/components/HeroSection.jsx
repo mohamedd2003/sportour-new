@@ -49,7 +49,7 @@ const HeroSection = () => {
           whileTap={{ scale: 0.95 }}
           className="flex items-center px-8 py-4 mx-auto space-x-2 text-lg font-semibold transition-all duration-300 bg-white rounded-full shadow-xl text-secondary-600 hover:shadow-2xl"
         >
-          <span>{t.hero.cta}</span>
+          <a href='#sports'>{t.hero.cta}</a>
           <ChevronRight size={20} />
         </motion.button>
       </div>

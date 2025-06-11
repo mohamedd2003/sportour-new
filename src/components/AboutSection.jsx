@@ -7,7 +7,7 @@ const AboutSection = () => {
   const t = translations[language];
 
   return (
-    <section className={`py-20 bg-gradient-light ${language === 'ar' ? 'rtl' : 'ltr'}`}>
+    <section  className={`py-20 bg-gradient-light ${language === 'ar' ? 'rtl' : 'ltr'}`}>
       <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -524,29 +524,29 @@ export const sportsData = {
       excludes: ['الغداء', 'النقل', 'بدلة الغوص'],
       requirements: ['قدرة أساسية على السباحة', 'الحد الأدنى للعمر 12 سنة', 'يوصى بحماية من الشمس'],
       itinerary: [
-        { time: '09:00', activity: 'تركيب المعدات وإحاطة السلامة' },
-        { time: '09:30', activity: 'تدريب على تقنيات التجديف' },
-        { time: '10:00', activity: 'بدء رحلة التجديف بالكاياك' },
-        { time: '12:00', activity: 'استراحة للغطس عند الشعاب المرجانية' },
-        { time: '13:30', activity: 'العودة بالتجديف إلى القاعدة' },
-        { time: '14:00', activity: 'إعادة المعدات وإنهاء الجولة' }
+        { time: '09:00', activity: 'تجهيز المعدات وإحاطة السلامة' },
+        { time: '09:30', activity: 'تدريب تقنيات التجديف' },
+        { time: '10:00', activity: 'بدء رحلة التجديف' },
+        { time: '12:00', activity: 'استراحة غطس في الشعاب المرجانية' },
+        { time: '13:30', activity: 'العودة إلى القاعدة' },
+        { time: '14:00', activity: 'إعادة المعدات والمناقشة' }
       ],
       operator: {
         name: 'رياضات البحر الأحمر المائية',
         rating: 4.7,
         experience: '8+ سنوات',
-        certifications: ['معتمد PADI', 'مركز البحر الأحمر البيئي'],
+        certifications: ['معتمد PADI', 'مركز البيئة البحرية'],
         contact: '+20 123 456 790'
       },
       hotels: [
         {
-          name: 'منتجع كورال بيتش',
+          name: 'منتجع شاطئ المرجان',
           rating: 4.6,
           price: 180,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
         },
         {
-          name: 'مارينا لودج',
+          name: 'نزل المارينا',
           rating: 4.3,
           price: 140,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
@@ -627,9 +627,9 @@ export const sportsData = {
         { time: '09:00', activity: 'فحص الرياح والطقس' },
         { time: '09:30', activity: 'إعداد الطائرة الورقية وأنظمة السلامة' },
         { time: '10:30', activity: 'التحكم بالطائرة الورقية على الأرض' },
-        { time: '12:00', activity: 'السحب بالجسم في الماء' },
+        { time: '12:00', activity: 'السحب في الماء' },
         { time: '14:00', activity: 'مهارات اللوح والبداية في الماء' },
-        { time: '15:30', activity: 'ممارسة مستقلة وملاحظات' }
+        { time: '15:30', activity: 'ممارسة مستقلة وتغذية راجعة' }
       ],
       operator: {
         name: 'كايت مصر برو',
@@ -674,29 +674,29 @@ export const sportsData = {
       excludes: ['أحذية المشي', 'زجاجة ماء شخصية', 'غداء'],
       requirements: ['مستوى لياقة بدنية جيد', 'أحذية مشي مناسبة', 'الحد الأدنى للعمر 12 سنة'],
       itinerary: [
-        { time: '05:00', activity: 'الاستقبال المبكر من الفندق' },
+        { time: '05:00', activity: 'استلام من الفندق في الصباح الباكر' },
         { time: '07:00', activity: 'الوصول إلى بداية المسار وإحاطة' },
         { time: '07:30', activity: 'بدء الصعود مع المرشد' },
-        { time: '10:00', activity: 'محطة استراحة مع إطلالات بانورامية' },
-        { time: '12:00', activity: 'الوصول إلى القمة واستراحة الغداء' },
+        { time: '10:00', activity: 'استراحة مع إطلالات بانورامية' },
+        { time: '12:00', activity: 'الوصول إلى القمة واستراحة غداء' },
         { time: '14:00', activity: 'النزول والعودة إلى القاعدة' }
       ],
       operator: {
-        name: 'مغامرات الصحراء والرحلات مصر',
+        name: 'رحلات الصحراء المصرية',
         rating: 4.6,
         experience: '15+ سنوات',
-        certifications: ['مرشد جبلي معتمد', 'إسعافات أولية في البرية'],
+        certifications: ['مرشد جبال معتمد', 'إسعافات أولية في البرية'],
         contact: '+20 123 456 793'
       },
       hotels: [
         {
-          name: 'منتجع جبلي',
+          name: 'نزل إطلالة الجبال',
           rating: 4.3,
           price: 100,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
         },
         {
-          name: 'مخيم صحراوي',
+          name: 'مخيم الصحراء',
           rating: 4.1,
           price: 80,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
@@ -724,23 +724,23 @@ export const sportsData = {
       excludes: ['الوجبات', 'الإقامة', 'معدات الحماية الشخصية'],
       requirements: ['مهارات توازن أساسية', 'الحد الأدنى للعمر 10 سنوات', 'حماية من الشمس ضرورية'],
       itinerary: [
-        { time: '14:00', activity: 'الاستقبال والقيادة إلى الكثبان الرملية' },
-        { time: '15:00', activity: 'تركيب المعدات وعرض التقنية' },
-        { time: '15:30', activity: 'جولات تدريبية على الكثبان الأصغر' },
+        { time: '14:00', activity: 'استلام والذهاب إلى الكثبان الرملية' },
+        { time: '15:00', activity: 'تجهيز المعدات وعرض التقنيات' },
+        { time: '15:30', activity: 'جولات تدريبية على الكثبان الصغيرة' },
         { time: '16:30', activity: 'جولات متقدمة على الكثبان الكبيرة' },
-        { time: '17:30', activity: 'مشاهدة غروب الشمس والتقاط الصور' },
+        { time: '17:30', activity: 'مشاهدة غروب الشمس والصور' },
         { time: '18:00', activity: 'بدء رحلة العودة' }
       ],
       operator: {
         name: 'مغامرات الصحراء',
         rating: 4.5,
         experience: '7+ سنوات',
-        certifications: ['معتمد في سلامة الصحراء', 'مرخص من هيئة السياحة'],
+        certifications: ['معتمد سلامة الصحراء', 'مرخص من هيئة السياحة'],
         contact: '+20 123 456 794'
       },
       hotels: [
         {
-          name: 'منتجع الواحة الصحراوي',
+          name: 'منتجع واحة الصحراء',
           rating: 4.4,
           price: 130,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
@@ -777,26 +777,26 @@ export const sportsData = {
         { time: '16:00', activity: 'اللقاء في رصيف النهر' },
         { time: '16:15', activity: 'تعليمات تقنيات التجديف' },
         { time: '16:45', activity: 'بدء رحلة النهر الهادئة' },
-        { time: '17:30', activity: 'التوقف عند موقع المعبد القديم' },
-        { time: '18:15', activity: 'متابعة التجديف مع إطلالات الغروب' },
+        { time: '17:30', activity: 'توقف عند موقع المعبد القديم' },
+        { time: '18:15', activity: 'متابعة التجديف مع إطلالات غروب الشمس' },
         { time: '19:00', activity: 'العودة إلى الرصيف' }
       ],
       operator: {
         name: 'مغامرات نهر النيل',
         rating: 4.7,
         experience: '11+ سنوات',
-        certifications: ['مرشد نهري معتمد', 'إنعاش قلبي رئوي / إسعافات أولية'],
+        certifications: ['مرشد نهر معتمد', 'إسعافات أولية/إنعاش قلبي رئوي'],
         contact: '+20 123 456 795'
       },
       hotels: [
         {
-          name: 'فندق مطل على النيل',
+          name: 'فندق إطلالة النيل',
           rating: 4.6,
           price: 170,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
         },
         {
-          name: 'نزل ريفرسايد',
+          name: 'نزل ضفاف النهر',
           rating: 4.3,
           price: 140,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
@@ -824,80 +824,29 @@ export const sportsData = {
       excludes: ['دورة شهادة الغوص', 'كاميرا تحت الماء', 'بدلة الغوص (متاحة للإيجار)'],
       requirements: ['شهادة PADI للمياه المفتوحة', 'تصريح طبي', 'الحد الأدنى للعمر 12 سنة'],
       itinerary: [
-        { time: '08:00', activity: 'الاستقبال من الفندق والانتقال إلى المارينا' },
-        { time: '09:00', activity: 'مغادرة القارب وإحاطة' },
-        { time: '10:00', activity: 'الغوص الأول في موقع الشعاب المرجانية' },
-        { time: '12:00', activity: 'فترة سطحية وغداء' },
-        { time: '13:30', activity: 'الغوص الثاني في موقع مختلف' },
-        { time: '15:30', activity: 'العودة إلى المارينا والانتقال إلى الفندق' }
+        { time: '08:00', activity: 'اللقاء في مركز الغوص' },
+        { time: '08:30', activity: 'إحاطة السلامة وتجهيز المعدات' },
+        { time: '09:30', activity: 'الغوص الأول' },
+        { time: '12:00', activity: 'غداء على متن القارب' },
+        { time: '13:30', activity: 'الغوص الثاني' },
+        { time: '15:30', activity: 'العودة وتنظيف المعدات' }
       ],
       operator: {
-        name: 'ديب بلو دايفينج',
+        name: 'مركز الغوص المصري',
         rating: 4.9,
-        experience: '12+ سنوات',
-        certifications: ['PADI 5 Star', 'معتمد ISO'],
-        contact: '+20 123 456 796'
+        experience: '15+ سنوات',
+        certifications: ['معتمد PADI', 'مركز خمس نجوم'],
+        contact: '+20 123 456 790'
       },
       hotels: [
         {
-          name: 'منتجع الغوص الأحمر',
-          rating: 4.7,
-          price: 250,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'فندق المرجان',
-          rating: 4.5,
-          price: 220,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
-    {
-      id: 'wreckdiving',
-      name: 'الغوص في الحطام',
-      description: 'اكتشف حطام السفن التاريخية والآثار تحت الماء في البحر الأحمر.',
-      fullDescription: 'استكشف حطام السفن الرائعة التي تحكي قصصًا من التاريخ البحري. يستضيف البحر الأحمر بعضًا من حطام السفن الأكثر سهولة والحفاظ عليها جيدًا في العالم.',
-      price: 600,
-      duration: '8 ساعات',
-      difficulty: 'متقدم',
-      groupSize: '2-4 أشخاص',
-      image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
-      locations: ['رأس محمد', 'أبو نحاس', 'مضيق تيران', 'جزر الأخوة'],
-      gallery: [
-        'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-        'https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg',
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg'
-      ],
-      includes: ['Technical diving equipment', 'Wreck specialist guide', 'Boat charter', 'Emergency oxygen'],
-      excludes: ['Advanced certification course', 'Nitrox fills', 'Underwater lights'],
-      requirements: ['Advanced Open Water certification', 'Deep diving specialty', 'Minimum 50 logged dives'],
-      itinerary: [
-        { time: '07:00', activity: 'Early departure to wreck sites' },
-        { time: '08:30', activity: 'Arrive at first wreck location' },
-        { time: '09:00', activity: 'Detailed wreck briefing and dive plan' },
-        { time: '09:30', activity: 'First wreck dive (30-40m depth)' },
-        { time: '11:30', activity: 'Surface interval and site history' },
-        { time: '13:00', activity: 'Second wreck dive' },
-        { time: '15:00', activity: 'Return journey and debrief' }
-      ],
-      operator: {
-        name: 'Technical Diving Egypt',
-        rating: 4.9,
-        experience: '15+ years',
-        certifications: ['TDI Instructor', 'Wreck Diving Specialist'],
-        contact: '+20 123 456 797'
-      },
-      hotels: [
-        {
-          name: 'Wreck Divers Resort',
+          name: 'منتجع الغواصين',
           rating: 4.7,
           price: 280,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
         },
         {
-          name: 'Technical Diving Lodge',
+          name: 'نزل الغوص التقني',
           rating: 4.5,
           price: 240,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
@@ -905,151 +854,52 @@ export const sportsData = {
       ]
     },
     {
-      id: 'quad-biking',
-      name: 'ركوب الدراجات الرباعية',
-      description: 'استمتع بركوب الدراجات الرباعية في صحاري مصر المذهلة.',
-      fullDescription: 'ركوب الدراجات الرباعية هو مغامرة مثيرة في قلب الصحراء المصرية. اكتشف المناظر الطبيعية الخلابة والكثبان الرملية على دراجتك الرباعية.',
-      price: 400,
-      duration: '3 ساعات',
-      difficulty: 'مبتدئ',
-      groupSize: '2-8 أشخاص',
-      image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-      locations: ['دهب', 'الغردقة', 'شرم الشيخ', 'واحة سيوة'],
+      id: 'wreckdiving',
+      name: 'غوص حطام السفن',
+      description: 'اكتشف حطام السفن التاريخية والآثار تحت الماء في البحر الأحمر.',
+      fullDescription: 'استكشف حطام السفن الرائعة التي تحكي قصص التاريخ البحري. يستضيف البحر الأحمر بعض من أكثر حطام السفن سهولة في الوصول إليها وأفضلها حفظًا في العالم.',
+      price: 600,
+      duration: '8 ساعات',
+      difficulty: 'متقدم',
+      groupSize: '2-4 أشخاص',
+      image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
+      locations: ['رأس محمد', 'أبو نحاس', 'مضيق تيران', 'جزر الأخوان'],
       gallery: [
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+        'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
+        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
+        'https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg',
+        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg'
       ],
-      includes: ['دراجة رباعية', 'خوذة أمان', 'دليل محلي', 'ماء', 'تأمين'],
-      excludes: ['النقل', 'الوجبات', 'المصروفات الشخصية'],
-      requirements: ['الحد الأدنى للعمر 16 سنة', 'رخصة قيادة', 'لياقة بدنية متوسطة'],
+      includes: ['معدات غوص تقنية', 'مرشد متخصص في حطام السفن', 'تأجير قارب', 'أكسجين طوارئ'],
+      excludes: ['دورة شهادة متقدمة', 'عبوات نيتروكس', 'أضواء تحت الماء'],
+      requirements: ['شهادة غوص متقدمة', 'تخصص الغوص العميق', '50 غوصة على الأقل'],
       itinerary: [
-        { time: '08:00', activity: 'اللقاء في نقطة التجمع' },
-        { time: '08:30', activity: 'تعليمات السلامة' },
-        { time: '09:00', activity: 'جولة في الصحراء' },
-        { time: '10:30', activity: 'استراحة' },
-        { time: '11:00', activity: 'جولة إضافية' },
-        { time: '12:00', activity: 'العودة' }
+        { time: '07:00', activity: 'انطلاق مبكر إلى مواقع الحطام' },
+        { time: '08:30', activity: 'الوصول إلى موقع الحطام الأول' },
+        { time: '09:00', activity: 'إحاطة مفصلة عن الحطام وخطة الغوص' },
+        { time: '09:30', activity: 'الغوص الأول في الحطام (عمق 30-40 متر)' },
+        { time: '11:30', activity: 'فترة راحة على السطح وتاريخ الموقع' },
+        { time: '13:00', activity: 'الغوص الثاني في الحطام' },
+        { time: '15:00', activity: 'رحلة العودة والمناقشة' }
       ],
       operator: {
-        name: 'مغامرات الصحراء',
-        rating: 4.6,
-        experience: '6+ سنوات',
-        certifications: ['معتمد سياحي', 'دليل صحراوي معتمد'],
+        name: 'الغوص التقني مصر',
+        rating: 4.9,
+        experience: '15+ سنوات',
+        certifications: ['مدرب TDI', 'متخصص غوص حطام السفن'],
         contact: '+20 123 456 797'
       },
       hotels: [
         {
-          name: 'منتجع الصحراء',
-          rating: 4.3,
-          price: 150,
+          name: 'منتجع غواصي الحطام',
+          rating: 4.7,
+          price: 280,
           image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
         },
         {
-          name: 'مخيم الكثبان',
-          rating: 4.1,
-          price: 100,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
-    {
-      id: 'camel-trekking',
-      name: 'رحلات الجمال',
-      description: 'استمتع برحلة جمال فريدة في قلب الصحراء المصرية.',
-      fullDescription: 'رحلات الجمال هي تجربة تقليدية فريدة تتيح لك استكشاف جمال الصحراء المصرية بطريقة أصيلة. استمتع بمناظر غروب الشمس المذهلة وليالي النجوم الصافية.',
-      price: 350,
-      duration: '4-5 ساعات',
-      difficulty: 'مبتدئ',
-      groupSize: '2-10 أشخاص',
-      image: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-      locations: ['واحة سيوة', 'الفرافرة', 'واحة البحرية', 'دهب'],
-      gallery: [
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg'
-      ],
-      includes: ['جمل لكل شخص', 'دليل محلي', 'وجبة تقليدية', 'ماء', 'تأمين'],
-      excludes: ['النقل', 'الإقامة', 'المصروفات الشخصية'],
-      requirements: ['الحد الأدنى للعمر 8 سنوات', 'لياقة بدنية متوسطة'],
-      itinerary: [
-        { time: '15:00', activity: 'اللقاء في نقطة التجمع' },
-        { time: '15:30', activity: 'تعليمات ركوب الجمال' },
-        { time: '16:00', activity: 'بداية الرحلة' },
-        { time: '17:30', activity: 'استراحة وغروب الشمس' },
-        { time: '18:00', activity: 'وجبة تقليدية' },
-        { time: '19:00', activity: 'العودة' }
-      ],
-      operator: {
-        name: 'رحلات الصحراء التقليدية',
-        rating: 4.5,
-        experience: '5+ سنوات',
-        certifications: ['معتمد سياحي', 'دليل صحراوي معتمد'],
-        contact: '+20 123 456 798'
-      },
-      hotels: [
-        {
-          name: 'منتجع الصحراء',
-          rating: 4.2,
-          price: 130,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'مخيم النجوم',
-          rating: 4.0,
-          price: 90,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
-    {
-      id: 'horseback-riding',
-      name: 'ركوب الخيل',
-      description: 'استمتع بركوب الخيل في أجمل مواقع مصر الطبيعية.',
-      fullDescription: 'ركوب الخيل هو نشاط مثالي للاستمتاع بجمال الطبيعة المصرية. اختر بين رحلات على الشاطئ أو في الصحراء أو حول المعالم التاريخية.',
-      price: 500,
-      duration: '2-3 ساعات',
-      difficulty: 'مبتدئ',
-      groupSize: '1-6 أشخاص',
-      image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg',
-      locations: ['الجيزة', 'دهب', 'الغردقة', 'واحة سيوة'],
-      gallery: [
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg',
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg'
-      ],
-      includes: ['حصان مدرب', 'معدات ركوب', 'مدرب محترف', 'تأمين', 'ماء'],
-      excludes: ['النقل', 'الوجبات', 'المصروفات الشخصية'],
-      requirements: ['الحد الأدنى للعمر 8 سنوات', 'لياقة بدنية متوسطة'],
-      itinerary: [
-        { time: '08:00', activity: 'اللقاء في الإسطبل' },
-        { time: '08:30', activity: 'تعليمات السلامة' },
-        { time: '09:00', activity: 'جولة في الموقع' },
-        { time: '10:30', activity: 'استراحة' },
-        { time: '11:00', activity: 'جولة إضافية' },
-        { time: '12:00', activity: 'العودة' }
-      ],
-      operator: {
-        name: 'مغامرات الخيل المصرية',
-        rating: 4.7,
-        experience: '7+ سنوات',
-        certifications: ['معتمد BHS', 'مدرب خيل معتمد'],
-        contact: '+20 123 456 799'
-      },
-      hotels: [
-        {
-          name: 'منتجع الفروسية',
-          rating: 4.4,
-          price: 180,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'فندق الصحراء',
-          rating: 4.2,
-          price: 150,
+          name: 'نزل الغوص التقني',
+          rating: 4.5,
+          price: 240,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
         }
       ]
