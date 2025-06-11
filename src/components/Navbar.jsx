@@ -1,15 +1,27 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../data/translations';
+import whiteLogo from '../assets/white logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const { language, toggleLanguage } = useLanguage();
   const location = useLocation();
   const t = translations[language];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navItems = [
     { name: t.nav.home, path: '/' },
@@ -20,9 +32,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 bg-gradient-primary backdrop-blur-sm shadow-lg ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-gradient-primary backdrop-blur-sm shadow-lg' : 'bg-transparent'
+    } ${language === 'ar' ? 'rtl' : 'ltr'}`}>
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <motion.div
@@ -30,15 +44,15 @@ const Navbar = () => {
               className="flex items-center"
             >
               <img 
-                src="/logo-colour.png" 
+                src={whiteLogo} 
                 alt="Sportour" 
-                className="h-10 w-auto"
+                className="w-auto h-10"
               />
             </motion.div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="items-center hidden space-x-8 md:flex">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -58,7 +72,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleLanguage}
-              className="flex items-center space-x-2 px-4 py-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-colors backdrop-blur-sm"
+              className="flex items-center px-4 py-2 space-x-2 text-white transition-colors rounded-lg bg-white/20 hover:bg-white/30 backdrop-blur-sm"
             >
               <Globe size={16} />
               <span className="font-medium">{language === 'en' ? 'العربية' : 'English'}</span>
@@ -66,12 +80,12 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-4">
+          <div className="flex items-center space-x-4 md:hidden">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleLanguage}
-              className="flex items-center space-x-1 px-3 py-2 bg-white/20 text-white rounded-lg"
+              className="flex items-center px-3 py-2 space-x-1 text-white rounded-lg bg-white/20"
             >
               <Globe size={14} />
               <span className="text-sm">{language === 'en' ? 'AR' : 'EN'}</span>
@@ -92,7 +106,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden py-4 border-t border-white/20"
+            className="py-4 border-t md:hidden border-white/20"
           >
             {navItems.map((item) => (
               <Link
