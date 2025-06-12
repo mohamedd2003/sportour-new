@@ -7,27 +7,27 @@ const GallerySection = () => {
   const t = translations[language];
 
   const galleryImages = [
-    'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-    'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-    'https://images.pexels.com/photos/390051/pexels-photo-390051.jpeg',
+    'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748649/photo_2025-06-12_20-16-59_tlnxnd.jpg',
+    'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748648/photo_2025-06-12_20-17-09_kxkd23.jpg',
+    'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748648/photo_2025-06-12_20-17-03_hwycwk.jpg',
     'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
     'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
     'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
+    'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748648/photo_2025-06-12_20-17-03_hwycwk.jpg',
     'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-    'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
   ];
 
   return (
     <section className={`py-20 bg-white ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="mb-16 text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary-800 mb-6">
+          <h2 className="mb-6 text-4xl font-bold md:text-5xl text-secondary-800">
             {t.gallery.title}
           </h2>
           <p className="text-xl text-secondary-600">
@@ -35,7 +35,7 @@ const GallerySection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {galleryImages.map((image, index) => (
             <motion.div
               key={index}
@@ -55,7 +55,7 @@ const GallerySection = () => {
                   index % 3 === 0 ? 'h-80' : 'h-40'
                 }`}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+              <div className="absolute inset-0 flex items-end transition-opacity duration-300 opacity-0 bg-gradient-to-t from-black/50 to-transparent hover:opacity-100">
                 <div className="p-4 text-white">
                   <p className="font-semibold">Adventure Moment</p>
                 </div>

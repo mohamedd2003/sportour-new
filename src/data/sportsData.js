@@ -359,11 +359,11 @@ export const sportsData = {
       duration: '6-7 hours',
       difficulty: 'Intermediate',
       groupSize: '2-6 people',
-      image: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
       locations: ['Sharm El Sheikh', 'Hurghada', 'Marsa Alam', 'Dahab'],
       gallery: [
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-        'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-19_bdng7m.jpg',
         'https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg',
         'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg'
       ],
@@ -812,11 +812,11 @@ export const sportsData = {
       duration: '6-8 ساعات',
       difficulty: 'مبتدئ',
       groupSize: '2-6 أشخاص',
-      image: 'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
       locations: ['شرم الشيخ', 'الغردقة', 'مرسى علم', 'دهب'],
       gallery: [
-        'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-19_bdng7m.jpg',
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
         'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg'
       ],

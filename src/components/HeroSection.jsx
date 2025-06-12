@@ -17,7 +17,7 @@ const HeroSection = () => {
           playsInline
           className="absolute object-cover w-auto h-auto min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:object-cover"
         >
-          <source src="/src/assets/Hero.MP4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnovlrm3u/video/upload/v1749749789/Hero_bqcmyq.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
