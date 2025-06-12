@@ -316,8 +316,8 @@ const SportDetail = () => {
                     <span className="ml-2 text-secondary-600">(4.8/5)</span>
                   </div>
                   <div className="flex items-center space-x-2 text-secondary-600">
-                    <MapPin size={16} />
-                    <span>{sport.locations.join(', ')}</span>
+                    <MapPin size={18} />
+                    <span>{sport.locations.join(' && ')}</span>
                   </div>
                 </div>
               </div>

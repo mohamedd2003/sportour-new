@@ -39,12 +39,24 @@ const SportsSection = () => {
               whileHover={{ y: -5 }}
               className="overflow-hidden transition-all duration-300 bg-white border shadow-lg rounded-2xl hover:shadow-2xl border-primary-100"
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={sport.image}
-                  alt={sport.name}
-                  className="object-cover w-full h-48 transition-transform duration-300 hover:scale-110"
-                />
+                <div className="relative overflow-hidden">
+                {sport.video ? (
+                  <video
+                    src={sport.video}
+                    alt={sport.name}
+                    className="object-cover w-full h-48 transition-transform duration-300 hover:scale-110"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                ) : (
+                  <img
+                    src={sport.image}
+                    alt={sport.name}
+                    className="object-cover w-full h-48 transition-transform duration-300 hover:scale-110"
+                  />
+                )}
                 <div className="absolute px-3 py-1 text-sm font-semibold text-white rounded-full top-4 right-4 bg-gradient-primary">
                   {t.sports.from} {sport.price} {t.sports.egp}
                 </div>

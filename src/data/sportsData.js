@@ -10,7 +10,168 @@ export const sportsData = {
       difficulty: 'Intermediate',
       groupSize: '1-4 people',
       image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-      locations: ['Dahab', 'Luxor', 'Aswan', 'Farafra Oasis'],
+      locations: [
+        "The Pyramids (Giza)",
+        "Fayoum (Wadi El Rayan area)",
+        "Hurghada (Red Sea)",
+        "Dahab (South Sinai)",
+        "Sharm El-Sheikh (South Sinai)",
+        "Marsa Alam (Red Sea)",
+        "Salloum (Mediterranean Sea)",
+        "Western Desert (around Siwa Oasis)",
+        "Ain Sokhna (Suez)"
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
+      excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
+      requirements: ['Minimum age 16', 'Weight limit 120kg', 'Basic fitness level'],
+      itinerary: [
+        { time: '08:00', activity: 'Meet at base camp and equipment briefing' },
+        { time: '09:00', activity: 'Safety training and ground practice' },
+        { time: '10:30', activity: 'First flight with instructor' },
+        { time: '12:00', activity: 'Break and refreshments' },
+        { time: '13:00', activity: 'Solo flight (experienced pilots)' },
+        { time: '14:30', activity: 'Landing and debrief' }
+      ],
+      operator: {
+        name: 'Sky Adventures Egypt',
+        rating: 4.8,
+        experience: '10+ years',
+        certifications: ['IPPI Certified', 'Egyptian Aviation Authority'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'Desert Rose Resort',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Oasis Lodge',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'Horse Riding',
+      name: 'Horse Riding',
+      description: 'Whether you want to ride horses in the desert or in front of the pyramids',
+      fullDescription: 'Whether you want to ride horses in the desert or in front of the pyramids, or simply experience the tranquility of Siwa on the back of a purebred Arabian horse, we can connect you with the right people to organize this experience. Sportour provides you with accurate information, reliable destinations, and the best locations to make every horse ride an unforgettable memory.',
+      price: 350,
+      duration: '1 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-2 people',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
+      excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
+      requirements: ['Minimum age 16', 'Weight limit 120kg', 'Basic fitness level'],
+      itinerary: [
+        { time: '08:00', activity: 'Meet at base camp and equipment briefing' },
+        { time: '09:00', activity: 'Safety training and ground practice' },
+        { time: '10:30', activity: 'First flight with instructor' },
+        { time: '12:00', activity: 'Break and refreshments' },
+        { time: '13:00', activity: 'Solo flight (experienced pilots)' },
+        { time: '14:30', activity: 'Landing and debrief' }
+      ],
+      operator: {
+        name: 'Sky Adventures Egypt',
+        rating: 4.8,
+        experience: '10+ years',
+        certifications: ['IPPI Certified', 'Egyptian Aviation Authority'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'Desert Rose Resort',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Oasis Lodge',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'padel',
+      name: 'Padel',
+      description: "Padel has become widely popular, and its courts can now be found in many clubs and resorts across Egypt.",
+      fullDescription: `Padel has become hugely popular, and its courts are now available in many clubs and resorts across Egypt.
+With Sportour, you can find where to play, book easily, and get our top recommendations for places that truly stand out — offering high-quality courts and top-level organization`,
+      price: 250,
+      duration: '1 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-12 people',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
+      excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
+      requirements: ['Minimum age 16', 'Weight limit 120kg', 'Basic fitness level'],
+      itinerary: [
+        { time: '08:00', activity: 'Meet at base camp and equipment briefing' },
+        { time: '09:00', activity: 'Safety training and ground practice' },
+        { time: '10:30', activity: 'First flight with instructor' },
+        { time: '12:00', activity: 'Break and refreshments' },
+        { time: '13:00', activity: 'Solo flight (experienced pilots)' },
+        { time: '14:30', activity: 'Landing and debrief' }
+      ],
+      operator: {
+        name: 'Sky Adventures Egypt',
+        rating: 4.8,
+        experience: '10+ years',
+        certifications: ['IPPI Certified', 'Egyptian Aviation Authority'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'Desert Rose Resort',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Oasis Lodge',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'Cycling',
+      name: 'Cycling',
+      description: 'If you love cycling, you can try it by the sea in Dahab or Hurghada — we make it easy for you.',
+      fullDescription: 'If you love cycling, you can try it by the sea in Dahab or Hurghada — we make it easy for you.Sportour connects you with tour organizers and provides details about the best places to rent bikes, suitable routes, and difficulty levels.All you need is to find the right information — and we’ll connect you to it',
+      price: 250,
+      duration: '1 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-12 people',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
         'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
         'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
@@ -60,7 +221,13 @@ export const sportsData = {
       difficulty: 'Beginner',
       groupSize: '2-8 people',
       image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-      locations: ['Red Sea', 'Lake Nasser', 'Marsa Alam', 'Ras Mohammed'],
+      locations:[
+        "Nile River - Cairo",
+        "Alexandria",
+        "Marsa Alam (Red Sea)",
+        "Wadi El Rayan (Fayoum)",
+        "Lake Nasser (Aswan)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
         'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
@@ -160,7 +327,11 @@ export const sportsData = {
       difficulty: 'Advanced',
       groupSize: '1-4 people',
       image: 'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
-      locations: ['El Gouna', 'Dahab', 'Soma Bay', 'Marsa Alam'],
+      locations : [
+        "Hurghada (Red Sea)",
+        "Dahab (South Sinai)",
+        "Ain Sokhna (Red Sea)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
         'https://images.pexels.com/photos/390051/pexels-photo-390051.jpeg',
@@ -310,7 +481,14 @@ export const sportsData = {
       difficulty: 'Beginner',
       groupSize: '2-8 people',
       image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-      locations: ['Nile River', 'Lake Nasser', 'Aswan', 'Luxor'],
+      locations: [
+        "Nile River - Cairo",
+        "Egyptian Rowing Club (Zamalek)",
+        "Nile River - Aswan",
+        "Arab Contractors Club - Cairo",
+        "Alexandria - Mediterranean Sea",
+        "Luxor"
+      ],
       gallery: [
         'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
         'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
@@ -360,7 +538,19 @@ export const sportsData = {
       difficulty: 'Intermediate',
       groupSize: '2-6 people',
       image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
-      locations: ['Sharm El Sheikh', 'Hurghada', 'Marsa Alam', 'Dahab'],
+      video:"https://res.cloudinary.com/dnovlrm3u/video/upload/v1749751707/IMG_5831_r6dzgf.mp4",
+      locations: [
+        "Ras Mohammed Nature Reserve (South Sinai)",
+        "Dahab (South Sinai)",
+        "Al-Tur (South Sinai)",
+        "Marsa Alam (Red Sea)",
+        "Nuweiba (South Sinai)",
+        "Alexandria (Mediterranean Sea)",
+        "Giftun Island (Hurghada)",
+        "Hurghada (Red Sea)",
+        "Sharm El-Sheikh (South Sinai)"
+      ],
+      
       gallery: [
         'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
         'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-19_bdng7m.jpg',
@@ -400,6 +590,7 @@ export const sportsData = {
         }
       ]
     },
+    
     {
       id: 'wreckdiving',
       name: 'Wreck Diving',
@@ -463,7 +654,17 @@ export const sportsData = {
       difficulty: 'متوسط',
       groupSize: '1-4 أشخاص',
       image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-      locations: ['دهب', 'الأقصر', 'أسوان', 'واحة الفرافرة'],
+      locations: [
+        "الأهرامات (الجيزة)",
+        "الفيوم (منطقة وادي الريان)",
+        "الغردقة (البحر الأحمر)",
+        "دهب (جنوب سيناء)",
+        "شرم الشيخ (جنوب سيناء)",
+        "مرسى علم (البحر الأحمر)",
+        "السلوم (البحر الأبيض المتوسط)",
+        "الصحراء الغربية (حول واحة سيوة)",
+        "العين السخنة (السويس)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
         'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
@@ -504,6 +705,161 @@ export const sportsData = {
       ]
     },
     {
+      id: 'Horse Riding',
+      name: 'ركوب الخيل',
+      description: 'لو عايز تركب خيل وسط الصحراء أو قدّام الأهرامات، أو نفسك تعيش هدوء سيوة',
+      fullDescription: `لو عايز تركب خيل وسط الصحراء أو قدّام الأهرامات، أو نفسك تعيش هدوء سيوة على ظهر حصان عربي أصيل… إحنا بنوصلك بالناس اللي هينظموا لك التجربة دي صح.
+سبورت تور بتوفّرلك معلومات دقيقة، وجهات موثوقة، وأفضل الأماكن اللي تخلّي كل جولة بالخيول ذكرى ما تتنسيش.`,
+      price: 350,
+      duration: '1 ساعات',
+      difficulty: 'متوسط',
+      groupSize: '1-2 أشخاص',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['دهب', 'بورسعيد', 'نزله السمان (الاهرامات)', "راس سدر"],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['مدرب محترف', 'جميع معدات السلامة', 'تغطية التأمين', 'خدمة التصوير'],
+      excludes: ['النقل إلى الموقع', 'الوجبات', 'المصروفات الشخصية'],
+      requirements: ['الحد الأدنى للعمر 16 سنة', 'حد الوزن 120 كيلو', 'مستوى لياقة أساسي'],
+      itinerary: [
+        { time: '08:00', activity: 'اللقاء في المعسكر الأساسي وإحاطة المعدات' },
+        { time: '09:00', activity: 'تدريب السلامة والممارسة الأرضية' },
+        { time: '10:30', activity: 'الطيران الأول مع المدرب' },
+        { time: '12:00', activity: 'استراحة ومرطبات' },
+        { time: '13:00', activity: 'الطيران المنفرد (للطيارين ذوي الخبرة)' },
+        { time: '14:30', activity: 'الهبوط والمناقشة' }
+      ],
+      operator: {
+        name: 'مغامرات السماء مصر',
+        rating: 4.8,
+        experience: '10+ سنوات',
+        certifications: ['معتمد IPPI', 'هيئة الطيران المصرية'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'منتجع الوردة الصحراوية',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'نزل الواحة',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'padel',
+      name: 'البادل',
+      description: "البادل انتشرت بشكل كبير، وملاعبها بقت موجودة في نوادي ومنتجعات كتير حوالين مصر.",
+      fullDescription: `,البادل انتشرت بشكل كبير، وملاعبها بقت موجودة في نوادي ومنتجعات كتير حوالين مصر.
+مع سبورتور تقدر تعرف تلعب فين، تحجز بسهولة، كمان بنرشّحلك الأماكن اللي فعلاً تستحق، واللي بتقدم جودة ملاعب وتنظيم على أعلى مستوى.`,
+      price: 250,
+      duration: '1 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-12 people',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
+      excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
+      requirements: ['Minimum age 16', 'Weight limit 120kg', 'Basic fitness level'],
+      itinerary: [
+        { time: '08:00', activity: 'Meet at base camp and equipment briefing' },
+        { time: '09:00', activity: 'Safety training and ground practice' },
+        { time: '10:30', activity: 'First flight with instructor' },
+        { time: '12:00', activity: 'Break and refreshments' },
+        { time: '13:00', activity: 'Solo flight (experienced pilots)' },
+        { time: '14:30', activity: 'Landing and debrief' }
+      ],
+      operator: {
+        name: 'Sky Adventures Egypt',
+        rating: 4.8,
+        experience: '10+ years',
+        certifications: ['IPPI Certified', 'Egyptian Aviation Authority'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'Desert Rose Resort',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Oasis Lodge',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'Cycling',
+      name: 'ركوب العجل',
+      description: 'لو بتحب ركوب العجل تقدر تجربه على البحر في دهب أو الغردقة، إحنا بنسهّلها عليك',
+      fullDescription: `لو بتحب ركوب العجل تقدر تجربه على البحر في دهب أو الغردقة، إحنا بنسهّلها عليك.
+Sportour بتوصلك باللي بينظموا الجولات، وبتوفرلك تفاصيل عن أفضل الأماكن لتأجير العجل، المسارات المناسبة، ومستوى الصعوبة.
+كل اللي محتاجه… توصّل للمعلومة الصح، وإحنا نوصلك بيها.
+`,
+      price: 250,
+      duration: '1 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-12 people',
+      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
+      gallery: [
+        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
+        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
+      excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
+      requirements: ['Minimum age 16', 'Weight limit 120kg', 'Basic fitness level'],
+      itinerary: [
+        { time: '08:00', activity: 'Meet at base camp and equipment briefing' },
+        { time: '09:00', activity: 'Safety training and ground practice' },
+        { time: '10:30', activity: 'First flight with instructor' },
+        { time: '12:00', activity: 'Break and refreshments' },
+        { time: '13:00', activity: 'Solo flight (experienced pilots)' },
+        { time: '14:30', activity: 'Landing and debrief' }
+      ],
+      operator: {
+        name: 'Sky Adventures Egypt',
+        rating: 4.8,
+        experience: '10+ years',
+        certifications: ['IPPI Certified', 'Egyptian Aviation Authority'],
+        contact: '+20 123 456 789'
+      },
+      hotels: [
+        {
+          name: 'Desert Rose Resort',
+          rating: 4.5,
+          price: 150,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Oasis Lodge',
+          rating: 4.2,
+          price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
       id: 'kayaking',
       name: 'التجديف بالكاياك',
       description: 'ابحر في المياه البكر في مصر واكتشف الخلجان المخفية والحياة البحرية.',
@@ -513,7 +869,13 @@ export const sportsData = {
       difficulty: 'مبتدئ',
       groupSize: '2-8 أشخاص',
       image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-      locations: ['البحر الأحمر', 'بحيرة ناصر', 'مرسى علم', 'رأس محمد'],
+      locations: [
+        "نهر النيل - القاهرة",
+        "الإسكندرية",
+        "مرسى علم (البحر الأحمر)",
+        "وادي الريان (الفيوم)",
+        "بحيرة ناصر (أسوان)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
         'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
@@ -613,7 +975,11 @@ export const sportsData = {
       difficulty: 'متقدم',
       groupSize: '1-4 أشخاص',
       image: 'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
-      locations: ['الجونة', 'دهب', 'خليج سوما', 'مرسى علم'],
+      locations: [
+        "الغردقة (البحر الأحمر)",
+        "دهب (جنوب سيناء)",
+        "العين السخنة (البحر الأحمر)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
         'https://images.pexels.com/photos/390051/pexels-photo-390051.jpeg',
@@ -663,7 +1029,14 @@ export const sportsData = {
       difficulty: 'متوسط',
       groupSize: '4-12 شخصًا',
       image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-      locations: ['جبل سيناء', 'الصحراء البيضاء', 'الوادي الملون', 'سانت كاترين'],
+      locations: [
+        "جبال سانت كاترين (جنوب سيناء)",
+        "وادي الريان (الفيوم)",
+        "الصحراء البيضاء والصحراء السوداء (وادي النطرون)",
+        "جبال البحر الأحمر (الغردقة - سفاجا)",
+        "وادي الحيتان (الفيوم)",
+        "دير سانت أنطونيوس (السويس)"
+      ],
       gallery: [
         'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
@@ -763,7 +1136,14 @@ export const sportsData = {
       difficulty: 'مبتدئ',
       groupSize: '2-8 أشخاص',
       image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-      locations: ['نهر النيل', 'بحيرة ناصر', 'أسوان', 'الأقصر'],
+      locations: [
+        "نهر النيل - القاهرة",
+        "نادي التجديف المصري (الزمالك)",
+        "نهر النيل - أسوان",
+        "نادي المقاولون العرب - القاهرة",
+        "الإسكندرية - البحر المتوسط",
+        "الأقصر"
+      ],
       gallery: [
         'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
         'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
@@ -813,7 +1193,8 @@ export const sportsData = {
       difficulty: 'مبتدئ',
       groupSize: '2-6 أشخاص',
       image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
-      locations: ['شرم الشيخ', 'الغردقة', 'مرسى علم', 'دهب'],
+      video:"https://res.cloudinary.com/dnovlrm3u/video/upload/v1749751707/IMG_5831_r6dzgf.mp4",
+      locations: [" ⁠محمية رأس محمد (جنوب سيناء)", "دهب (جنوب سيناء)", "الطور (جنوب سيناء)","مرسى علم (البحر الأحمر)"," ⁠نويبع (جنوب سيناء)", "الاسكندرية (البحر المتوسط)", " ⁠جزيرة الجفتون (الغردقة)", " الغردقة (البحر الأحمر)", 'شرم الشيخ (جنوب سيناء)'],
       gallery: [
         'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-29_lc1jqi.jpg',
         'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749748223/photo_2025-06-12_20-02-19_bdng7m.jpg',
