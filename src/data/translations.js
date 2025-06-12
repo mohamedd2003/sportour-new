@@ -14,7 +14,11 @@ export const translations = {
     },
     about: {
       title: 'About Sportour',
-      content: 'Sportour is Egypt\'s premier sports tourism platform, connecting adventure seekers with unforgettable experiences across the country. From the Red Sea\'s crystal waters to the Western Desert\'s golden dunes, we showcase the best sporting adventures Egypt has to offer.',
+      content: `We’re a group of young people who thought about how to change the perception of tourism in Egypt.
+So, we chose to promote sports tourism — something many people don’t know much about.
+We're sending a message to the world that Egypt isn’t just about historical sites and tourist landmarks,
+but also a place where you can combine tourism and sports in one destination.
+Our goal is to highlight these sports and the locations where they can be experienced across Egypt.`,
       mission: 'Our mission is to promote sustainable sports tourism while highlighting Egypt\'s natural beauty and adventure potential.',
     },
     sports: {
@@ -26,7 +30,7 @@ export const translations = {
       egp: 'EGP',
     },
     meetings: {
-      title: 'Tourist Meetups & Events',
+      title: 'Tourist Meetups ',
       subtitle: 'Join fellow adventurers and create lasting memories',
       content: 'Connect with like-minded travelers, participate in group activities, and discover Egypt\'s hidden gems together. Our community events bring together sports enthusiasts from around the world.',
       joinEvents: 'Join Our Events',
@@ -36,27 +40,27 @@ export const translations = {
       subtitle: 'Milestones in Egypt\'s Sports Tourism',
       events: [
         {
-          year: '2020',
+          year: '2024 SEP',
           title: 'Sportour Founded',
           description: 'Started with a vision to promote Egypt\'s adventure sports'
         },
         {
-          year: '2021',
+          year: '2024 DEC',
           title: 'First 1000 Adventures',
           description: 'Reached our first milestone of 1000 successful bookings'
         },
         {
-          year: '2022',
+          year: '2025 JUN',
           title: 'International Recognition',
           description: 'Won Best Sports Tourism Platform in MENA region'
         },
         {
-          year: '2023',
+          year: '2025 MAR',
           title: 'Expansion Across Egypt',
           description: 'Extended services to all major tourist destinations'
         },
         {
-          year: '2024',
+          year: '2025 JUN',
           title: '10,000+ Happy Adventurers',
           description: 'Celebrating over 10,000 successful adventure experiences'
         }
@@ -71,8 +75,8 @@ export const translations = {
       quickLinks: 'Quick Links',
       contact: 'Contact Info',
       followUs: 'Follow Us',
-      email: 'info@sportour.com',
-      phone: '+20 123 456 789',
+      email: 'sportour2025@gmail.com',
+      phone: '+20 102 578 2246',
       rights: 'All rights reserved.',
     },
     sportDetails: {
@@ -173,7 +177,11 @@ export const translations = {
     },
     about: {
       title: 'عن سبورتور',
-      content: 'سبورتور هي منصة السياحة الرياضية الرائدة في مصر، تربط محبي المغامرة بتجارب لا تُنسى في جميع أنحاء البلاد. من مياه البحر الأحمر الكريستالية إلى كثبان الصحراء الغربية الذهبية، نعرض أفضل المغامرات الرياضية التي تقدمها مصر.',
+      content: `احنا مجموعة من الشباب فكرنا ازاي نغير مفهوم السياحة في مصر
+ فـ اختارنا نروج للسياحة الرياضية الـ ناس كتير متعرفش تفاصيل عنها وبنوصل رسالة للعالم ان مصر فيها اماكن تاريخية وواجهة سياحية 
+لكن كمان يقدروا يجمعوا بين السياحة والرياضة في بلد واحدة
+وهدفنا اننا نبرز الرياضات دي وأماكن تواجدها في مصر
+`,
       mission: 'مهمتنا هي تعزيز السياحة الرياضية المستدامة مع إبراز جمال مصر الطبيعي وإمكانات المغامرة.',
     },
     sports: {
@@ -185,7 +193,7 @@ export const translations = {
       egp: 'جنيه',
     },
     meetings: {
-      title: 'لقاءات وفعاليات السياح',
+      title: 'لقاءات  السياح',
       subtitle: 'انضم لرفاق المغامرة واصنع ذكريات لا تُنسى',
       content: 'تواصل مع المسافرين ذوي التفكير المشابه، شارك في الأنشطة الجماعية، واكتشف جواهر مصر المخفية معًا. فعالياتنا المجتمعية تجمع عشاق الرياضة من جميع أنحاء العالم.',
       joinEvents: 'انضم لفعالياتنا',
@@ -195,27 +203,27 @@ export const translations = {
       subtitle: 'معالم في السياحة الرياضية المصرية',
       events: [
         {
-          year: '2020',
+          year: '2024 SEP',
           title: 'تأسيس سبورتور',
           description: 'بدأنا برؤية لتعزيز الرياضات المغامرة في مصر'
         },
         {
-          year: '2021',
+          year: '2024 DEC',
           title: 'أول 1000 مغامرة',
           description: 'وصلنا لأول معلم بـ 1000 حجز ناجح'
         },
         {
-          year: '2022',
+          year: '2025 JUN',
           title: 'اعتراف دولي',
           description: 'فزنا بجائزة أفضل منصة سياحة رياضية في المنطقة'
         },
         {
-          year: '2023',
+          year: '2025 MAR',
           title: 'التوسع عبر مصر',
           description: 'وسعنا خدماتنا لجميع الوجهات السياحية الرئيسية'
         },
         {
-          year: '2024',
+          year: '2025 JUN',
           title: 'أكثر من 10,000 مغامر سعيد',
           description: 'نحتفل بأكثر من 10,000 تجربة مغامرة ناجحة'
         }
@@ -230,8 +238,8 @@ export const translations = {
       quickLinks: 'روابط سريعة',
       contact: 'معلومات التواصل',
       followUs: 'تابعنا',
-      email: 'info@sportour.com',
-      phone: '+20 123 456 789',
+      email: 'sportour2025@gmail.com',
+      phone: '+20 102 578 2246',
       rights: 'جميع الحقوق محفوظة.',
     },
     sportDetails: {
