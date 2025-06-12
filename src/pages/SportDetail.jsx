@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, MapPin, Star, Clock, Users, Award, CheckCircle, XCircle } from 'lucide-react';
 import DatePicker from 'react-datepicker';
@@ -16,6 +16,7 @@ const SportDetail = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedImage, setSelectedImage] = useState(0);
   const [activeTab, setActiveTab] = useState('overview');
+  const navigate = useNavigate();
 
   const sport = sports.find(s => s.id === sportName);
 
@@ -387,9 +388,10 @@ const SportDetail = () => {
                   </div>
 
                   <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full py-3 text-base font-semibold text-white transition-opacity shadow-lg bg-gradient-primary sm:py-4 rounded-xl sm:text-lg hover:opacity-90"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => navigate('/booking-confirmation')}
+                    className="w-full py-4 text-xl font-semibold text-white transition duration-300 rounded-lg bg-gradient-primary hover:bg-primary-700"
                   >
                     {t.sportDetails.bookNow}
                   </motion.button>

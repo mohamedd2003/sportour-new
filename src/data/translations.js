@@ -149,6 +149,13 @@ export const translations = {
       teamMember3Name: 'Omar Ali',
       teamMember3Role: 'Customer Experience Manager',
       teamMember3Bio: 'Omar works tirelessly to ensure every guest has an exceptional experience with Egypt Adventures.'
+    },
+    bookingConfirmation: {
+      title: 'Booking Confirmed!',
+      message: 'Your adventure is successfully booked. We\'ve sent a confirmation email to your inbox.',
+      backToHome: 'Back to Home',
+      viewBookings: 'View My Bookings',
+      note: 'You will receive a detailed itinerary and payment instructions shortly.'
     }
   },
   ar: {
@@ -301,6 +308,13 @@ export const translations = {
       teamMember3Name: 'عمر علي',
       teamMember3Role: 'مدير تجربة العملاء',
       teamMember3Bio: 'يعمل عمر بلا كلل لضمان حصول كل ضيف على تجربة استثنائية مع مغامرات مصر.'
+    },
+    bookingConfirmation: {
+      title: 'تم تأكيد الحجز!',
+      message: 'تم حجز مغامرتك بنجاح. لقد أرسلنا رسالة تأكيد إلى بريدك الإلكتروني.',
+      backToHome: 'العودة للصفحة الرئيسية',
+      viewBookings: 'عرض حجوزاتي',
+      note: 'ستتلقى تفاصيل خط سير الرحلة وتعليمات الدفع قريبًا.'
     }
   }
 };

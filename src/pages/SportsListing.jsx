@@ -12,22 +12,22 @@ const SportsListing = () => {
 
   return (
     <div className={`min-h-screen bg-gray-50 pt-20 ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="mb-16 text-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-6xl">
             {t.sports.title}
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="max-w-3xl mx-auto text-xl text-gray-600">
             {t.sports.subtitle}
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {sports.map((sport, index) => (
             <motion.div
               key={sport.id}
@@ -35,30 +35,30 @@ const SportsListing = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
               whileHover={{ y: -8 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
+              className="overflow-hidden transition-all duration-300 bg-white shadow-lg rounded-2xl hover:shadow-2xl"
             >
               <div className="relative overflow-hidden">
                 <img
                   src={sport.image}
                   alt={sport.name}
-                  className="w-full h-56 object-cover transition-transform duration-300 hover:scale-110"
+                  className="object-cover w-full h-56 transition-transform duration-300 hover:scale-110"
                 />
-                <div className="absolute top-4 right-4 bg-primary-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                <div className="absolute px-4 py-2 text-sm font-semibold text-white rounded-full shadow-lg top-4 right-4 bg-primary-500">
                   {t.sports.from} {sport.price} {t.sports.egp}
                 </div>
               </div>
 
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                <h3 className="mb-3 text-2xl font-bold text-gray-900">
                   {sport.name}
                 </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                <p className="mb-6 leading-relaxed text-gray-600">
                   {sport.description}
                 </p>
                 
                 <Link
                   to={`/sports/${sport.id}`}
-                  className="inline-flex items-center space-x-2 bg-primary-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-primary-700 transition-colors shadow-lg"
+                  className="inline-flex items-center px-6 py-3 space-x-2 font-semibold text-white transition-colors shadow-lg bg-gradient-primary rounded-xl hover:bg-primary-700"
                 >
                   <span>{t.sports.book}</span>
                   <ArrowRight size={16} />
