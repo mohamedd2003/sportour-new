@@ -69,7 +69,7 @@ export const sportsData = {
       duration: '4-5 hours',
       difficulty: 'Beginner',
       groupSize: '2-8 people',
-      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856210/photo_2025-06-14_02-09-29_gbrghx.jpg',
       locations:[
         "Nile River - Cairo",
         "Alexandria",
@@ -78,10 +78,10 @@ export const sportsData = {
         "Lake Nasser (Aswan)"
       ],
       gallery: [
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856210/photo_2025-06-14_02-09-29_gbrghx.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856218/photo_2025-06-14_02-09-21_s9gygg.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856221/photo_2025-06-14_02-09-25_fuqayo.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856215/photo_2025-06-14_02-09-17_bnyeiy.jpg'
       ],
       includes: ['Kayak and paddle', 'Life jacket', 'Waterproof bag', 'Snorkeling gear', 'Guide'],
       excludes: ['Lunch', 'Transportation', 'Wetsuit'],
@@ -717,7 +717,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '4-5 ساعات',
       difficulty: 'مبتدئ',
       groupSize: '2-8 أشخاص',
-      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856210/photo_2025-06-14_02-09-29_gbrghx.jpg',
       locations: [
         "نهر النيل - القاهرة",
         "الإسكندرية",
@@ -726,10 +726,10 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         "بحيرة ناصر (أسوان)"
       ],
       gallery: [
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856210/photo_2025-06-14_02-09-29_gbrghx.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856218/photo_2025-06-14_02-09-21_s9gygg.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856221/photo_2025-06-14_02-09-25_fuqayo.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749856215/photo_2025-06-14_02-09-17_bnyeiy.jpg'
       ],
       includes: ['قوارب الكاياك والمجاذيف', 'سترة النجاة', 'حقيبة مقاومة للماء', 'معدات الغطس', 'مرشد'],
       excludes: ['الغداء', 'النقل', 'بدلة الغوص'],
