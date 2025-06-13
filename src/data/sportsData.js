@@ -5,7 +5,7 @@ export const sportsData = {
       name: 'Paramotor',
       description: 'Experience the ultimate freedom of flight with paramotoring over Egypt\'s stunning landscapes.',
       fullDescription: 'Paramotoring combines the freedom of paragliding with the reliability of powered flight. Soar over Egypt\'s diverse landscapes, from the Nile Valley to the Red Sea coast, experiencing breathtaking aerial views that few get to witness.',
-      price: 1200,
+      price: 5000,
       duration: '3-4 hours',
       difficulty: 'Intermediate',
       groupSize: '1-4 people',
@@ -61,11 +61,117 @@ export const sportsData = {
       ]
     },
     {
+      id: 'kayaking',
+      name: 'Kayaking',
+      description: 'Paddle through Egypt\'s pristine waters and discover hidden coves and marine life.',
+      fullDescription: 'Explore Egypt\'s magnificent waterways through kayaking adventures that take you to places only accessible by small watercraft. Navigate through mangrove forests, discover secluded beaches, and witness diverse marine ecosystems.',
+      price: 350,
+      duration: '4-5 hours',
+      difficulty: 'Beginner',
+      groupSize: '2-8 people',
+      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+      locations:[
+        "Nile River - Cairo",
+        "Alexandria",
+        "Marsa Alam (Red Sea)",
+        "Wadi El Rayan (Fayoum)",
+        "Lake Nasser (Aswan)"
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
+        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
+        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+      ],
+      includes: ['Kayak and paddle', 'Life jacket', 'Waterproof bag', 'Snorkeling gear', 'Guide'],
+      excludes: ['Lunch', 'Transportation', 'Wetsuit'],
+      requirements: ['Basic swimming ability', 'Minimum age 12', 'Sun protection recommended'],
+      itinerary: [
+        { time: '09:00', activity: 'Equipment fitting and safety briefing' },
+        { time: '09:30', activity: 'Paddle technique training' },
+        { time: '10:00', activity: 'Start kayaking expedition' },
+        { time: '12:00', activity: 'Snorkeling break at coral reef' },
+        { time: '13:30', activity: 'Return paddle to base' },
+        { time: '14:00', activity: 'Equipment return and debrief' }
+      ],
+      operator: {
+        name: 'Red Sea Water Sports',
+        rating: 4.7,
+        experience: '8+ years',
+        certifications: ['PADI Certified', 'Red Sea Environmental Center'],
+        contact: '+20 123 456 790'
+      },
+      hotels: [
+        {
+          name: 'Coral Beach Resort',
+          rating: 4.6,
+          price: 180,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Marina Lodge',
+          rating: 4.3,
+          price: 140,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'hiking',
+      name: 'Hiking',
+      description: 'Explore Egypt\'s diverse landscapes on foot, from desert mountains to coastal trails.',
+      fullDescription: 'Discover Egypt\'s hidden natural treasures through guided hiking expeditions. From the rugged mountains of Sinai to the unique rock formations of the White Desert.',
+      price: 1800,
+      duration: '8 hours',
+      difficulty: 'Moderate',
+      groupSize: '4-12 people',
+      image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
+      locations: ['Mount Sinai', 'White Desert', 'Colored Canyon', 'Saint Catherine'],
+      gallery: [
+        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
+        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
+        'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['Professional guide', 'Hiking poles', 'First aid kit', 'Light refreshments', 'Transportation'],
+      excludes: ['Hiking boots', 'Personal water bottle', 'Lunch'],
+      requirements: ['Good fitness level', 'Proper hiking footwear', 'Minimum age 12'],
+      itinerary: [
+        { time: '05:00', activity: 'Early morning pickup from hotel' },
+        { time: '07:00', activity: 'Arrive at trailhead and briefing' },
+        { time: '07:30', activity: 'Begin ascent with guide' },
+        { time: '10:00', activity: 'Rest stop with panoramic views' },
+        { time: '12:00', activity: 'Reach summit and lunch break' },
+        { time: '14:00', activity: 'Descent and return to base' }
+      ],
+      operator: {
+        name: 'Desert Trekking Egypt',
+        rating: 4.6,
+        experience: '15+ years',
+        certifications: ['Mountain Guide Certified', 'Wilderness First Aid'],
+        contact: '+20 123 456 793'
+      },
+      hotels: [
+        {
+          name: 'Mountain View Lodge',
+          rating: 4.3,
+          price: 100,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Desert Camp',
+          rating: 4.1,
+          price: 80,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
       id: 'Horse Riding',
       name: 'Horse Riding',
       description: 'Whether you want to ride horses in the desert or in front of the pyramids',
       fullDescription: 'Whether you want to ride horses in the desert or in front of the pyramids, or simply experience the tranquility of Siwa on the back of a purebred Arabian horse, we can connect you with the right people to organize this experience. Sportour provides you with accurate information, reliable destinations, and the best locations to make every horse ride an unforgettable memory.',
-      price: 350,
+      price: 300,
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-2 people',
@@ -166,7 +272,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       name: 'Cycling',
       description: 'If you love cycling, you can try it by the sea in Dahab or Hurghada — we make it easy for you.',
       fullDescription: 'If you love cycling, you can try it by the sea in Dahab or Hurghada — we make it easy for you.Sportour connects you with tour organizers and provides details about the best places to rent bikes, suitable routes, and difficulty levels.All you need is to find the right information — and we’ll connect you to it',
-      price: 250,
+      price: 150,
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
@@ -211,62 +317,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         }
       ]
     },
-    {
-      id: 'kayaking',
-      name: 'Kayaking',
-      description: 'Paddle through Egypt\'s pristine waters and discover hidden coves and marine life.',
-      fullDescription: 'Explore Egypt\'s magnificent waterways through kayaking adventures that take you to places only accessible by small watercraft. Navigate through mangrove forests, discover secluded beaches, and witness diverse marine ecosystems.',
-      price: 350,
-      duration: '4-5 hours',
-      difficulty: 'Beginner',
-      groupSize: '2-8 people',
-      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-      locations:[
-        "Nile River - Cairo",
-        "Alexandria",
-        "Marsa Alam (Red Sea)",
-        "Wadi El Rayan (Fayoum)",
-        "Lake Nasser (Aswan)"
-      ],
-      gallery: [
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
-      ],
-      includes: ['Kayak and paddle', 'Life jacket', 'Waterproof bag', 'Snorkeling gear', 'Guide'],
-      excludes: ['Lunch', 'Transportation', 'Wetsuit'],
-      requirements: ['Basic swimming ability', 'Minimum age 12', 'Sun protection recommended'],
-      itinerary: [
-        { time: '09:00', activity: 'Equipment fitting and safety briefing' },
-        { time: '09:30', activity: 'Paddle technique training' },
-        { time: '10:00', activity: 'Start kayaking expedition' },
-        { time: '12:00', activity: 'Snorkeling break at coral reef' },
-        { time: '13:30', activity: 'Return paddle to base' },
-        { time: '14:00', activity: 'Equipment return and debrief' }
-      ],
-      operator: {
-        name: 'Red Sea Water Sports',
-        rating: 4.7,
-        experience: '8+ years',
-        certifications: ['PADI Certified', 'Red Sea Environmental Center'],
-        contact: '+20 123 456 790'
-      },
-      hotels: [
-        {
-          name: 'Coral Beach Resort',
-          rating: 4.6,
-          price: 180,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'Marina Lodge',
-          rating: 4.3,
-          price: 140,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+   
     {
       id: 'windsurfing',
       name: 'Wind Surfing',
@@ -371,62 +422,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         }
       ]
     },
-    {
-      id: 'hiking',
-      name: 'Hiking',
-      description: 'Explore Egypt\'s diverse landscapes on foot, from desert mountains to coastal trails.',
-      fullDescription: 'Discover Egypt\'s hidden natural treasures through guided hiking expeditions. From the rugged mountains of Sinai to the unique rock formations of the White Desert.',
-      price: 200,
-      duration: '8 hours',
-      difficulty: 'Moderate',
-      groupSize: '4-12 people',
-      image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-      locations: ['Mount Sinai', 'White Desert', 'Colored Canyon', 'Saint Catherine'],
-      gallery: [
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
-        'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
-      ],
-      includes: ['Professional guide', 'Hiking poles', 'First aid kit', 'Light refreshments', 'Transportation'],
-      excludes: ['Hiking boots', 'Personal water bottle', 'Lunch'],
-      requirements: ['Good fitness level', 'Proper hiking footwear', 'Minimum age 12'],
-      itinerary: [
-        { time: '05:00', activity: 'Early morning pickup from hotel' },
-        { time: '07:00', activity: 'Arrive at trailhead and briefing' },
-        { time: '07:30', activity: 'Begin ascent with guide' },
-        { time: '10:00', activity: 'Rest stop with panoramic views' },
-        { time: '12:00', activity: 'Reach summit and lunch break' },
-        { time: '14:00', activity: 'Descent and return to base' }
-      ],
-      operator: {
-        name: 'Desert Trekking Egypt',
-        rating: 4.6,
-        experience: '15+ years',
-        certifications: ['Mountain Guide Certified', 'Wilderness First Aid'],
-        contact: '+20 123 456 793'
-      },
-      hotels: [
-        {
-          name: 'Mountain View Lodge',
-          rating: 4.3,
-          price: 100,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'Desert Camp',
-          rating: 4.1,
-          price: 80,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+   
     {
       id: 'sandboarding',
       name: 'Sandboarding',
       description: 'Surf the golden dunes of Egypt\'s deserts for an unforgettable adrenaline rush.',
       fullDescription: 'Experience the thrill of sandboarding down Egypt\'s magnificent sand dunes. This desert adventure combines the excitement of snowboarding with the unique beauty of the Sahara.',
-      price: 300,
+      price: 150,
       duration: '4 hours',
       difficulty: 'Beginner',
       groupSize: '2-10 people',
@@ -649,7 +651,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       name: 'الطيران الشراعي بالمحرك',
       description: 'استمتع بالحرية المطلقة للطيران مع الطيران الشراعي بالمحرك فوق المناظر الطبيعية المذهلة في مصر.',
       fullDescription: 'يجمع الطيران الشراعي بالمحرك بين حرية الطيران الشراعي وموثوقية الطيران بالطاقة. حلق فوق المناظر الطبيعية المتنوعة في مصر، من وادي النيل إلى ساحل البحر الأحمر، واستمتع بمناظر جوية خلابة لا يشهدها إلا القليلون.',
-      price: 1200,
+      price: 5000,
       duration: '3-4 ساعات',
       difficulty: 'متوسط',
       groupSize: '1-4 أشخاص',
@@ -700,6 +702,121 @@ With Sportour, you can find where to play, book easily, and get our top recommen
           name: 'نزل الواحة',
           rating: 4.2,
           price: 120,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'kayaking',
+      name: 'التجديف بالكاياك',
+      description: 'ابحر في المياه البكر في مصر واكتشف الخلجان المخفية والحياة البحرية.',
+      fullDescription: 'استكشف الممرات المائية الرائعة في مصر من خلال مغامرات التجديف بالكاياك التي تأخذك إلى أماكن لا يمكن الوصول إليها إلا بالقوارب الصغيرة. ابحر عبر غابات المانغروف، واكتشف الشواطئ المنعزلة، وشاهد النظم البيئية البحرية المتنوعة.',
+      price: 300,
+      duration: '4-5 ساعات',
+      difficulty: 'مبتدئ',
+      groupSize: '2-8 أشخاص',
+      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+      locations: [
+        "نهر النيل - القاهرة",
+        "الإسكندرية",
+        "مرسى علم (البحر الأحمر)",
+        "وادي الريان (الفيوم)",
+        "بحيرة ناصر (أسوان)"
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
+        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
+        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
+        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+      ],
+      includes: ['قوارب الكاياك والمجاذيف', 'سترة النجاة', 'حقيبة مقاومة للماء', 'معدات الغطس', 'مرشد'],
+      excludes: ['الغداء', 'النقل', 'بدلة الغوص'],
+      requirements: ['قدرة أساسية على السباحة', 'الحد الأدنى للعمر 12 سنة', 'يوصى بحماية من الشمس'],
+      itinerary: [
+        { time: '09:00', activity: 'تجهيز المعدات وإحاطة السلامة' },
+        { time: '09:30', activity: 'تدريب تقنيات التجديف' },
+        { time: '10:00', activity: 'بدء رحلة التجديف' },
+        { time: '12:00', activity: 'استراحة غطس في الشعاب المرجانية' },
+        { time: '13:30', activity: 'العودة إلى القاعدة' },
+        { time: '14:00', activity: 'إعادة المعدات والمناقشة' }
+      ],
+      operator: {
+        name: 'رياضات البحر الأحمر المائية',
+        rating: 4.7,
+        experience: '8+ سنوات',
+        certifications: ['معتمد PADI', 'مركز البيئة البحرية'],
+        contact: '+20 123 456 790'
+      },
+      hotels: [
+        {
+          name: 'منتجع شاطئ المرجان',
+          rating: 4.6,
+          price: 180,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'نزل المارينا',
+          rating: 4.3,
+          price: 140,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+ 
+
+      {
+      id: 'hiking',
+      name:"الهايكنج",
+      description: 'استكشف المناظر الطبيعية المتنوعة في مصر سيرًا على الأقدام، من الجبال الصحراوية إلى المسارات الساحلية.',
+      fullDescription: 'اكتشف كنوز مصر الطبيعية المخفية من خلال رحلات المشي الموجهة. من جبال سيناء الوعرة إلى التكوينات الصخرية الفريدة في الصحراء البيضاء.',
+      price: 1800,
+      duration: '8 ساعات',
+      difficulty: 'متوسط',
+      groupSize: '4-12 شخصًا',
+      image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
+      locations: [
+        "جبال سانت كاترين (جنوب سيناء)",
+        "وادي الريان (الفيوم)",
+        "الصحراء البيضاء والصحراء السوداء (وادي النطرون)",
+        "جبال البحر الأحمر (الغردقة - سفاجا)",
+        "وادي الحيتان (الفيوم)",
+        "دير سانت أنطونيوس (السويس)"
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
+        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
+        'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
+        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+      ],
+      includes: ['مرشد محترف', 'عصي المشي', 'عدة إسعافات أولية', 'مرطبات خفيفة', 'نقل'],
+      excludes: ['أحذية المشي', 'زجاجة ماء شخصية', 'غداء'],
+      requirements: ['مستوى لياقة بدنية جيد', 'أحذية مشي مناسبة', 'الحد الأدنى للعمر 12 سنة'],
+      itinerary: [
+        { time: '05:00', activity: 'استلام من الفندق في الصباح الباكر' },
+        { time: '07:00', activity: 'الوصول إلى بداية المسار وإحاطة' },
+        { time: '07:30', activity: 'بدء الصعود مع المرشد' },
+        { time: '10:00', activity: 'استراحة مع إطلالات بانورامية' },
+        { time: '12:00', activity: 'الوصول إلى القمة واستراحة غداء' },
+        { time: '14:00', activity: 'النزول والعودة إلى القاعدة' }
+      ],
+      operator: {
+        name: 'رحلات الصحراء المصرية',
+        rating: 4.6,
+        experience: '15+ سنوات',
+        certifications: ['مرشد جبال معتمد', 'إسعافات أولية في البرية'],
+        contact: '+20 123 456 793'
+      },
+      hotels: [
+        {
+          name: 'نزل إطلالة الجبال',
+          rating: 4.3,
+          price: 100,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'مخيم الصحراء',
+          rating: 4.1,
+          price: 80,
           image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
         }
       ]
@@ -761,7 +878,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       description: "البادل انتشرت بشكل كبير، وملاعبها بقت موجودة في نوادي ومنتجعات كتير حوالين مصر.",
       fullDescription: `,البادل انتشرت بشكل كبير، وملاعبها بقت موجودة في نوادي ومنتجعات كتير حوالين مصر.
 مع سبورتور تقدر تعرف تلعب فين، تحجز بسهولة، كمان بنرشّحلك الأماكن اللي فعلاً تستحق، واللي بتقدم جودة ملاعب وتنظيم على أعلى مستوى.`,
-      price: 250,
+      price: 200,
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
@@ -814,7 +931,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
 Sportour بتوصلك باللي بينظموا الجولات، وبتوفرلك تفاصيل عن أفضل الأماكن لتأجير العجل، المسارات المناسبة، ومستوى الصعوبة.
 كل اللي محتاجه… توصّل للمعلومة الصح، وإحنا نوصلك بيها.
 `,
-      price: 250,
+      price: 150,
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
@@ -859,62 +976,7 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
         }
       ]
     },
-    {
-      id: 'kayaking',
-      name: 'التجديف بالكاياك',
-      description: 'ابحر في المياه البكر في مصر واكتشف الخلجان المخفية والحياة البحرية.',
-      fullDescription: 'استكشف الممرات المائية الرائعة في مصر من خلال مغامرات التجديف بالكاياك التي تأخذك إلى أماكن لا يمكن الوصول إليها إلا بالقوارب الصغيرة. ابحر عبر غابات المانغروف، واكتشف الشواطئ المنعزلة، وشاهد النظم البيئية البحرية المتنوعة.',
-      price: 350,
-      duration: '4-5 ساعات',
-      difficulty: 'مبتدئ',
-      groupSize: '2-8 أشخاص',
-      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-      locations: [
-        "نهر النيل - القاهرة",
-        "الإسكندرية",
-        "مرسى علم (البحر الأحمر)",
-        "وادي الريان (الفيوم)",
-        "بحيرة ناصر (أسوان)"
-      ],
-      gallery: [
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
-      ],
-      includes: ['قوارب الكاياك والمجاذيف', 'سترة النجاة', 'حقيبة مقاومة للماء', 'معدات الغطس', 'مرشد'],
-      excludes: ['الغداء', 'النقل', 'بدلة الغوص'],
-      requirements: ['قدرة أساسية على السباحة', 'الحد الأدنى للعمر 12 سنة', 'يوصى بحماية من الشمس'],
-      itinerary: [
-        { time: '09:00', activity: 'تجهيز المعدات وإحاطة السلامة' },
-        { time: '09:30', activity: 'تدريب تقنيات التجديف' },
-        { time: '10:00', activity: 'بدء رحلة التجديف' },
-        { time: '12:00', activity: 'استراحة غطس في الشعاب المرجانية' },
-        { time: '13:30', activity: 'العودة إلى القاعدة' },
-        { time: '14:00', activity: 'إعادة المعدات والمناقشة' }
-      ],
-      operator: {
-        name: 'رياضات البحر الأحمر المائية',
-        rating: 4.7,
-        experience: '8+ سنوات',
-        certifications: ['معتمد PADI', 'مركز البيئة البحرية'],
-        contact: '+20 123 456 790'
-      },
-      hotels: [
-        {
-          name: 'منتجع شاطئ المرجان',
-          rating: 4.6,
-          price: 180,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'نزل المارينا',
-          rating: 4.3,
-          price: 140,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+  
     {
       id: 'windsurfing',
       name: 'ركوب الأمواج الشراعي',
@@ -1019,69 +1081,13 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
         }
       ]
     },
-    {
-      id: 'hiking',
-      name: 'التنزه',
-      description: 'استكشف المناظر الطبيعية المتنوعة في مصر سيرًا على الأقدام، من الجبال الصحراوية إلى المسارات الساحلية.',
-      fullDescription: 'اكتشف كنوز مصر الطبيعية المخفية من خلال رحلات المشي الموجهة. من جبال سيناء الوعرة إلى التكوينات الصخرية الفريدة في الصحراء البيضاء.',
-      price: 200,
-      duration: '8 ساعات',
-      difficulty: 'متوسط',
-      groupSize: '4-12 شخصًا',
-      image: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-      locations: [
-        "جبال سانت كاترين (جنوب سيناء)",
-        "وادي الريان (الفيوم)",
-        "الصحراء البيضاء والصحراء السوداء (وادي النطرون)",
-        "جبال البحر الأحمر (الغردقة - سفاجا)",
-        "وادي الحيتان (الفيوم)",
-        "دير سانت أنطونيوس (السويس)"
-      ],
-      gallery: [
-        'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
-        'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
-        'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
-      ],
-      includes: ['مرشد محترف', 'عصي المشي', 'عدة إسعافات أولية', 'مرطبات خفيفة', 'نقل'],
-      excludes: ['أحذية المشي', 'زجاجة ماء شخصية', 'غداء'],
-      requirements: ['مستوى لياقة بدنية جيد', 'أحذية مشي مناسبة', 'الحد الأدنى للعمر 12 سنة'],
-      itinerary: [
-        { time: '05:00', activity: 'استلام من الفندق في الصباح الباكر' },
-        { time: '07:00', activity: 'الوصول إلى بداية المسار وإحاطة' },
-        { time: '07:30', activity: 'بدء الصعود مع المرشد' },
-        { time: '10:00', activity: 'استراحة مع إطلالات بانورامية' },
-        { time: '12:00', activity: 'الوصول إلى القمة واستراحة غداء' },
-        { time: '14:00', activity: 'النزول والعودة إلى القاعدة' }
-      ],
-      operator: {
-        name: 'رحلات الصحراء المصرية',
-        rating: 4.6,
-        experience: '15+ سنوات',
-        certifications: ['مرشد جبال معتمد', 'إسعافات أولية في البرية'],
-        contact: '+20 123 456 793'
-      },
-      hotels: [
-        {
-          name: 'نزل إطلالة الجبال',
-          rating: 4.3,
-          price: 100,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'مخيم الصحراء',
-          rating: 4.1,
-          price: 80,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+  
     {
       id: 'sandboarding',
       name: 'التزلج على الرمال',
       description: 'تزلج على الكثبان الرملية الذهبية في صحاري مصر للحصول على تجربة لا تُنسى.',
       fullDescription: 'استمتع بإثارة التزلج على الرمال في الكثبان الرملية المذهلة في مصر. هذه المغامرة الصحراوية تجمع بين متعة التزلج على الثلج وجمال الصحراء الفريد.',
-      price: 300,
+      price: 150,
       duration: '4 ساعات',
       difficulty: 'مبتدئ',
       groupSize: '2-10 أشخاص',
