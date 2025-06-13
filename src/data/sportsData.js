@@ -167,6 +167,110 @@ export const sportsData = {
       ]
     },
     {
+      id: 'windsurfing',
+      name: 'Wind Surfing',
+      description: 'Harness the power of wind and waves in some of the world\'s best windsurfing locations.',
+      fullDescription: 'Egypt\'s Red Sea coast offers world-class windsurfing conditions with consistent winds and crystal-clear waters. Whether you\'re a beginner learning the basics or an advanced surfer seeking challenging conditions.',
+      price: 450,
+      duration: '6 hours',
+      difficulty: 'Intermediate',
+      groupSize: '1-6 people',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
+      locations: ['Dahab', 'El Gouna', 'Hurghada', 'Safaga'],
+      gallery: [
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-50_j0ns9d.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-38_rqm5nz.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855311/photo_2025-06-14_01-54-35_nbhaiw.jpg'
+      ],
+      includes: ['Windsurf board and sail', 'Wetsuit', 'Harness', 'Professional instruction', 'Rescue boat'],
+      excludes: ['Meals', 'Transportation', 'Personal insurance'],
+      requirements: ['Basic swimming skills', 'Minimum age 14', 'Physical fitness'],
+      itinerary: [
+        { time: '08:00', activity: 'Equipment setup and wind assessment' },
+        { time: '08:30', activity: 'Theory session and safety briefing' },
+        { time: '09:30', activity: 'Beach practice - rigging and balance' },
+        { time: '11:00', activity: 'Water practice - basic sailing' },
+        { time: '13:00', activity: 'Lunch break' },
+        { time: '14:00', activity: 'Advanced techniques and free sailing' }
+      ],
+      operator: {
+        name: 'Wind Masters Egypt',
+        rating: 4.9,
+        experience: '12+ years',
+        certifications: ['IWA Certified', 'Egyptian Sailing Federation'],
+        contact: '+20 123 456 791'
+      },
+      hotels: [
+        {
+          name: 'Windsurf Paradise Resort',
+          rating: 4.7,
+          price: 200,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Breeze Hotel',
+          rating: 4.4,
+          price: 160,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'kitesurfing',
+      name: 'Kite Surfing',
+      description: 'Combine the thrill of surfing with the power of kite flying in Egypt\'s perfect conditions.',
+      fullDescription: 'Experience the ultimate adrenaline rush with kitesurfing in Egypt\'s premier locations. The consistent winds and flat water conditions make it ideal for both learning and advancing your skills.',
+      price: 500,
+      duration: '5-6 hours',
+      difficulty: 'Advanced',
+      groupSize: '1-4 people',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
+      locations : [
+        "Hurghada (Red Sea)",
+        "Dahab (South Sinai)",
+        "Ain Sokhna (Red Sea)"
+      ],
+      gallery: [
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-52-02_itfdtj.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854787/photo_2025-06-14_01-46-05_wblv7p.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-51-59_d3lll9.jpg'
+      ],
+      includes: ['Kite and board', 'Harness and helmet', 'Wetsuit', 'IKO certified instructor', 'Radio communication'],
+      excludes: ['Meals', 'Accommodation', 'Travel insurance'],
+      requirements: ['Strong swimming ability', 'Minimum age 16', 'Good physical condition'],
+      itinerary: [
+        { time: '09:00', activity: 'Wind and weather conditions check' },
+        { time: '09:30', activity: 'Kite setup and safety systems' },
+        { time: '10:30', activity: 'Kite control on land' },
+        { time: '12:00', activity: 'Body dragging in water' },
+        { time: '14:00', activity: 'Board skills and water start' },
+        { time: '15:30', activity: 'Independent practice and feedback' }
+      ],
+      operator: {
+        name: 'Kite Egypt Pro',
+        rating: 4.8,
+        experience: '9+ years',
+        certifications: ['IKO Certified', 'VDWS Certified'],
+        contact: '+20 123 456 792'
+      },
+      hotels: [
+        {
+          name: 'Kite Beach Resort',
+          rating: 4.8,
+          price: 220,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'Lagoon Hotel',
+          rating: 4.5,
+          price: 190,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
       id: 'Horse Riding',
       name: 'Horse Riding',
       description: 'Whether you want to ride horses in the desert or in front of the pyramids',
@@ -318,110 +422,8 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       ]
     },
    
-    {
-      id: 'windsurfing',
-      name: 'Wind Surfing',
-      description: 'Harness the power of wind and waves in some of the world\'s best windsurfing locations.',
-      fullDescription: 'Egypt\'s Red Sea coast offers world-class windsurfing conditions with consistent winds and crystal-clear waters. Whether you\'re a beginner learning the basics or an advanced surfer seeking challenging conditions.',
-      price: 450,
-      duration: '6 hours',
-      difficulty: 'Intermediate',
-      groupSize: '1-6 people',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
-      locations: ['Dahab', 'El Gouna', 'Hurghada', 'Safaga'],
-      gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-50_j0ns9d.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-38_rqm5nz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855311/photo_2025-06-14_01-54-35_nbhaiw.jpg'
-      ],
-      includes: ['Windsurf board and sail', 'Wetsuit', 'Harness', 'Professional instruction', 'Rescue boat'],
-      excludes: ['Meals', 'Transportation', 'Personal insurance'],
-      requirements: ['Basic swimming skills', 'Minimum age 14', 'Physical fitness'],
-      itinerary: [
-        { time: '08:00', activity: 'Equipment setup and wind assessment' },
-        { time: '08:30', activity: 'Theory session and safety briefing' },
-        { time: '09:30', activity: 'Beach practice - rigging and balance' },
-        { time: '11:00', activity: 'Water practice - basic sailing' },
-        { time: '13:00', activity: 'Lunch break' },
-        { time: '14:00', activity: 'Advanced techniques and free sailing' }
-      ],
-      operator: {
-        name: 'Wind Masters Egypt',
-        rating: 4.9,
-        experience: '12+ years',
-        certifications: ['IWA Certified', 'Egyptian Sailing Federation'],
-        contact: '+20 123 456 791'
-      },
-      hotels: [
-        {
-          name: 'Windsurf Paradise Resort',
-          rating: 4.7,
-          price: 200,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'Breeze Hotel',
-          rating: 4.4,
-          price: 160,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
-    {
-      id: 'kitesurfing',
-      name: 'Kite Surfing',
-      description: 'Combine the thrill of surfing with the power of kite flying in Egypt\'s perfect conditions.',
-      fullDescription: 'Experience the ultimate adrenaline rush with kitesurfing in Egypt\'s premier locations. The consistent winds and flat water conditions make it ideal for both learning and advancing your skills.',
-      price: 500,
-      duration: '5-6 hours',
-      difficulty: 'Advanced',
-      groupSize: '1-4 people',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-      locations : [
-        "Hurghada (Red Sea)",
-        "Dahab (South Sinai)",
-        "Ain Sokhna (Red Sea)"
-      ],
-      gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-52-02_itfdtj.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854787/photo_2025-06-14_01-46-05_wblv7p.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-51-59_d3lll9.jpg'
-      ],
-      includes: ['Kite and board', 'Harness and helmet', 'Wetsuit', 'IKO certified instructor', 'Radio communication'],
-      excludes: ['Meals', 'Accommodation', 'Travel insurance'],
-      requirements: ['Strong swimming ability', 'Minimum age 16', 'Good physical condition'],
-      itinerary: [
-        { time: '09:00', activity: 'Wind and weather conditions check' },
-        { time: '09:30', activity: 'Kite setup and safety systems' },
-        { time: '10:30', activity: 'Kite control on land' },
-        { time: '12:00', activity: 'Body dragging in water' },
-        { time: '14:00', activity: 'Board skills and water start' },
-        { time: '15:30', activity: 'Independent practice and feedback' }
-      ],
-      operator: {
-        name: 'Kite Egypt Pro',
-        rating: 4.8,
-        experience: '9+ years',
-        certifications: ['IKO Certified', 'VDWS Certified'],
-        contact: '+20 123 456 792'
-      },
-      hotels: [
-        {
-          name: 'Kite Beach Resort',
-          rating: 4.8,
-          price: 220,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'Lagoon Hotel',
-          rating: 4.5,
-          price: 190,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+   
+   
    
     {
       id: 'sandboarding',
@@ -822,6 +824,110 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       ]
     },
     {
+      id: 'windsurfing',
+      name: 'ركوب الأمواج الشراعي',
+      description: 'استفد من قوة الرياح والأمواج في بعض من أفضل مواقع ركوب الأمواج الشراعي في العالم.',
+      fullDescription: 'يوفر ساحل البحر الأحمر في مصر أفضل ظروف ركوب الأمواج الشراعي في العالم مع رياح ثابتة ومياه صافية تمامًا. سواء كنت مبتدئًا تتعلم الأساسيات أو متزلجًا متقدمًا يبحث عن ظروف صعبة.',
+      price: 450,
+      duration: '6 ساعات',
+      difficulty: 'متوسط',
+      groupSize: '1-6 أشخاص',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
+      locations: ['دهب', 'الجونة', 'الغردقة', 'سفاجا'],
+      gallery: [
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-50_j0ns9d.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-38_rqm5nz.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855311/photo_2025-06-14_01-54-35_nbhaiw.jpg'
+      ],
+      includes: ['لوح ركوب الأمواج الشراعي والشراع', 'بدلة غوص', 'حزام', 'تعليمات احترافية', 'قارب إنقاذ'],
+      excludes: ['وجبات', 'نقل', 'تأمين شخصي'],
+      requirements: ['مهارات سباحة أساسية', 'الحد الأدنى للعمر 14 سنة', 'لياقة بدنية'],
+      itinerary: [
+        { time: '08:00', activity: 'إعداد المعدات وتقييم الرياح' },
+        { time: '08:30', activity: 'جلسة نظرية وإحاطة السلامة' },
+        { time: '09:30', activity: 'ممارسة الشاطئ - التجهيز والتوازن' },
+        { time: '11:00', activity: 'ممارسة الماء - الإبحار الأساسي' },
+        { time: '13:00', activity: 'استراحة غداء' },
+        { time: '14:00', activity: 'تقنيات متقدمة وإبحار حر' }
+      ],
+      operator: {
+        name: 'أساتذة الرياح مصر',
+        rating: 4.9,
+        experience: '12+ سنوات',
+        certifications: ['معتمد IWA', 'الاتحاد المصري للإبحار'],
+        contact: '+20 123 456 791'
+      },
+      hotels: [
+        {
+          name: 'منتجع ويندسيرف بارادايس',
+          rating: 4.7,
+          price: 200,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'فندق النسيم',
+          rating: 4.4,
+          price: 160,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
+      id: 'kitesurfing',
+      name: 'ركوب الأمواج بالطائرة الورقية',
+      description: 'اجمع بين إثارة ركوب الأمواج وقوة الطيران بالطائرة الورقية في ظروف مصر المثالية.',
+      fullDescription: 'استمتع بإثارة ركوب الأمواج بالطائرة الورقية في أفضل مواقع مصر. الظروف الرياح الثابتة والمياه المسطحة تجعلها مثالية للتعلم وتطوير مهاراتك.',
+      price: 500,
+      duration: '5-6 ساعات',
+      difficulty: 'متقدم',
+      groupSize: '1-4 أشخاص',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
+      locations: [
+        "الغردقة (البحر الأحمر)",
+        "دهب (جنوب سيناء)",
+        "العين السخنة (البحر الأحمر)"
+      ],
+      gallery: [
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-52-02_itfdtj.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854787/photo_2025-06-14_01-46-05_wblv7p.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-51-59_d3lll9.jpg'
+      ],
+      includes: ['طائرة ورقية ولوح', 'حزام وخوذة', 'بدلة غوص', 'مدرب معتمد من IKO', 'اتصال لاسلكي'],
+      excludes: ['وجبات', 'إقامة', 'تأمين سفر'],
+      requirements: ['قدرة سباحة قوية', 'الحد الأدنى للعمر 16 سنة', 'حالة بدنية جيدة'],
+      itinerary: [
+        { time: '09:00', activity: 'فحص الرياح والطقس' },
+        { time: '09:30', activity: 'إعداد الطائرة الورقية وأنظمة السلامة' },
+        { time: '10:30', activity: 'التحكم بالطائرة الورقية على الأرض' },
+        { time: '12:00', activity: 'السحب في الماء' },
+        { time: '14:00', activity: 'مهارات اللوح والبداية في الماء' },
+        { time: '15:30', activity: 'ممارسة مستقلة وتغذية راجعة' }
+      ],
+      operator: {
+        name: 'كايت مصر برو',
+        rating: 4.8,
+        experience: '9+ سنوات',
+        certifications: ['معتمد IKO', 'معتمد VDWS'],
+        contact: '+20 123 456 792'
+      },
+      hotels: [
+        {
+          name: 'منتجع شاطئ الكايت',
+          rating: 4.8,
+          price: 220,
+          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
+        },
+        {
+          name: 'فندق البحيرة',
+          rating: 4.5,
+          price: 190,
+          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
+        }
+      ]
+    },
+    {
       id: 'Horse Riding',
       name: 'ركوب الخيل',
       description: 'لو عايز تركب خيل وسط الصحراء أو قدّام الأهرامات، أو نفسك تعيش هدوء سيوة',
@@ -977,110 +1083,8 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       ]
     },
   
-    {
-      id: 'windsurfing',
-      name: 'ركوب الأمواج الشراعي',
-      description: 'استفد من قوة الرياح والأمواج في بعض من أفضل مواقع ركوب الأمواج الشراعي في العالم.',
-      fullDescription: 'يوفر ساحل البحر الأحمر في مصر أفضل ظروف ركوب الأمواج الشراعي في العالم مع رياح ثابتة ومياه صافية تمامًا. سواء كنت مبتدئًا تتعلم الأساسيات أو متزلجًا متقدمًا يبحث عن ظروف صعبة.',
-      price: 450,
-      duration: '6 ساعات',
-      difficulty: 'متوسط',
-      groupSize: '1-6 أشخاص',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
-      locations: ['دهب', 'الجونة', 'الغردقة', 'سفاجا'],
-      gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855310/photo_2025-06-14_01-54-47_j3xode.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-50_j0ns9d.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855312/photo_2025-06-14_01-54-38_rqm5nz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855311/photo_2025-06-14_01-54-35_nbhaiw.jpg'
-      ],
-      includes: ['لوح ركوب الأمواج الشراعي والشراع', 'بدلة غوص', 'حزام', 'تعليمات احترافية', 'قارب إنقاذ'],
-      excludes: ['وجبات', 'نقل', 'تأمين شخصي'],
-      requirements: ['مهارات سباحة أساسية', 'الحد الأدنى للعمر 14 سنة', 'لياقة بدنية'],
-      itinerary: [
-        { time: '08:00', activity: 'إعداد المعدات وتقييم الرياح' },
-        { time: '08:30', activity: 'جلسة نظرية وإحاطة السلامة' },
-        { time: '09:30', activity: 'ممارسة الشاطئ - التجهيز والتوازن' },
-        { time: '11:00', activity: 'ممارسة الماء - الإبحار الأساسي' },
-        { time: '13:00', activity: 'استراحة غداء' },
-        { time: '14:00', activity: 'تقنيات متقدمة وإبحار حر' }
-      ],
-      operator: {
-        name: 'أساتذة الرياح مصر',
-        rating: 4.9,
-        experience: '12+ سنوات',
-        certifications: ['معتمد IWA', 'الاتحاد المصري للإبحار'],
-        contact: '+20 123 456 791'
-      },
-      hotels: [
-        {
-          name: 'منتجع ويندسيرف بارادايس',
-          rating: 4.7,
-          price: 200,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'فندق النسيم',
-          rating: 4.4,
-          price: 160,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
-    {
-      id: 'kitesurfing',
-      name: 'ركوب الأمواج بالطائرة الورقية',
-      description: 'اجمع بين إثارة ركوب الأمواج وقوة الطيران بالطائرة الورقية في ظروف مصر المثالية.',
-      fullDescription: 'استمتع بإثارة ركوب الأمواج بالطائرة الورقية في أفضل مواقع مصر. الظروف الرياح الثابتة والمياه المسطحة تجعلها مثالية للتعلم وتطوير مهاراتك.',
-      price: 500,
-      duration: '5-6 ساعات',
-      difficulty: 'متقدم',
-      groupSize: '1-4 أشخاص',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-      locations: [
-        "الغردقة (البحر الأحمر)",
-        "دهب (جنوب سيناء)",
-        "العين السخنة (البحر الأحمر)"
-      ],
-      gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-52-02_itfdtj.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854787/photo_2025-06-14_01-46-05_wblv7p.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749855136/photo_2025-06-14_01-51-59_d3lll9.jpg'
-      ],
-      includes: ['طائرة ورقية ولوح', 'حزام وخوذة', 'بدلة غوص', 'مدرب معتمد من IKO', 'اتصال لاسلكي'],
-      excludes: ['وجبات', 'إقامة', 'تأمين سفر'],
-      requirements: ['قدرة سباحة قوية', 'الحد الأدنى للعمر 16 سنة', 'حالة بدنية جيدة'],
-      itinerary: [
-        { time: '09:00', activity: 'فحص الرياح والطقس' },
-        { time: '09:30', activity: 'إعداد الطائرة الورقية وأنظمة السلامة' },
-        { time: '10:30', activity: 'التحكم بالطائرة الورقية على الأرض' },
-        { time: '12:00', activity: 'السحب في الماء' },
-        { time: '14:00', activity: 'مهارات اللوح والبداية في الماء' },
-        { time: '15:30', activity: 'ممارسة مستقلة وتغذية راجعة' }
-      ],
-      operator: {
-        name: 'كايت مصر برو',
-        rating: 4.8,
-        experience: '9+ سنوات',
-        certifications: ['معتمد IKO', 'معتمد VDWS'],
-        contact: '+20 123 456 792'
-      },
-      hotels: [
-        {
-          name: 'منتجع شاطئ الكايت',
-          rating: 4.8,
-          price: 220,
-          image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg'
-        },
-        {
-          name: 'فندق البحيرة',
-          rating: 4.5,
-          price: 190,
-          image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg'
-        }
-      ]
-    },
+
+   
   
     {
       id: 'sandboarding',
