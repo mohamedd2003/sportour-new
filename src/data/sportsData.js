@@ -9,7 +9,7 @@ export const sportsData = {
       duration: '3-4 hours',
       difficulty: 'Intermediate',
       groupSize: '1-4 people',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
       locations: [
         "The Pyramids (Giza)",
         "Fayoum (Wadi El Rayan area)",
@@ -22,10 +22,10 @@ export const sportsData = {
         "Ain Sokhna (Suez)"
       ],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854404/photo_2025-06-14_01-39-44_ghmap4.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -131,7 +131,7 @@ export const sportsData = {
         'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
         'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional guide', 'Hiking poles', 'First aid kit', 'Light refreshments', 'Transportation'],
       excludes: ['Hiking boots', 'Personal water bottle', 'Lunch'],
@@ -175,13 +175,13 @@ export const sportsData = {
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-2 people',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -226,13 +226,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -276,13 +276,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -387,7 +387,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg',
         'https://images.pexels.com/photos/390051/pexels-photo-390051.jpeg',
         'https://images.pexels.com/photos/2821823/pexels-photo-2821823.jpeg',
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg'
       ],
       includes: ['Kite and board', 'Harness and helmet', 'Wetsuit', 'IKO certified instructor', 'Radio communication'],
       excludes: ['Meals', 'Accommodation', 'Travel insurance'],
@@ -437,7 +437,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       gallery: [
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
         'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg',
         'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg'
       ],
       includes: ['Sandboard and wax', 'Safety helmet', 'Desert guide', 'Refreshments', '4WD transportation'],
@@ -655,7 +655,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '3-4 ساعات',
       difficulty: 'متوسط',
       groupSize: '1-4 أشخاص',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
       locations: [
         "الأهرامات (الجيزة)",
         "الفيوم (منطقة وادي الريان)",
@@ -668,10 +668,10 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         "العين السخنة (السويس)"
       ],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['مدرب محترف', 'جميع معدات السلامة', 'تغطية التأمين', 'خدمة التصوير'],
       excludes: ['النقل إلى الموقع', 'الوجبات', 'المصروفات الشخصية'],
@@ -786,7 +786,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg',
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
         'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['مرشد محترف', 'عصي المشي', 'عدة إسعافات أولية', 'مرطبات خفيفة', 'نقل'],
       excludes: ['أحذية المشي', 'زجاجة ماء شخصية', 'غداء'],
@@ -835,9 +835,9 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       locations: ['دهب', 'بورسعيد', 'نزله السمان (الاهرامات)', "راس سدر"],
       gallery: [
         'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['مدرب محترف', 'جميع معدات السلامة', 'تغطية التأمين', 'خدمة التصوير'],
       excludes: ['النقل إلى الموقع', 'الوجبات', 'المصروفات الشخصية'],
@@ -886,9 +886,9 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
         'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -939,9 +939,9 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
         'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg',
-        'https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-24_xgfiqu.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -1096,7 +1096,7 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       gallery: [
         'https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg',
         'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg',
-        'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854094/photo_2025-06-14_01-34-20_w8aa50.jpg',
         'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg'
       ],
       includes: ['لوح تزلج وشمع', 'خوذة أمان', 'دليل صحراوي', 'مرطبات', 'سيارة دفع رباعي'],
