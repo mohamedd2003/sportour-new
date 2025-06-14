@@ -42,8 +42,8 @@ const MeetingsSection = () => {
                   <Users className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-secondary-800">Group Activities</h4>
-                  <p className="text-secondary-600">Join organized sports events and meetups</p>
+                  <h4 className="font-semibold text-secondary-800">{t.meetings.groupActivities.title}</h4>
+                  <p className="text-secondary-600">{t.meetings.groupActivities.description}</p>
                 </div>
               </div>
 
@@ -52,8 +52,8 @@ const MeetingsSection = () => {
                   <Calendar className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-secondary-800">Regular Events</h4>
-                  <p className="text-secondary-600">Weekly and monthly sports gatherings</p>
+                  <h4 className="font-semibold text-secondary-800">{t.meetings.regularEvents.title}</h4>
+                  <p className="text-secondary-600">{t.meetings.regularEvents.description}</p>
                 </div>
               </div>
 
@@ -62,8 +62,8 @@ const MeetingsSection = () => {
                   <MapPin className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-secondary-800">Multiple Locations</h4>
-                  <p className="text-secondary-600">Events across Egypt's best sports destinations</p>
+                  <h4 className="font-semibold text-secondary-800">{t.meetings.multipleLocations.title}</h4>
+                  <p className="text-secondary-600">{t.meetings.multipleLocations.description}</p>
                 </div>
               </div>
             </div>

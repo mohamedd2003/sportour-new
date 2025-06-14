@@ -14,9 +14,9 @@ export const translations = {
     },
     about: {
       title: 'About Sportour',
-      content: `We’re a group of young people who thought about how to change the perception of tourism in Egypt.
-So, we chose to promote sports tourism — something many people don’t know much about.
-We're sending a message to the world that Egypt isn’t just about historical sites and tourist landmarks,
+      content: `We're a group of young people who thought about how to change the perception of tourism in Egypt.
+So, we chose to promote sports tourism — something many people don't know much about.
+We're sending a message to the world that Egypt isn't just about historical sites and tourist landmarks,
 but also a place where you can combine tourism and sports in one destination.
 Our goal is to highlight these sports and the locations where they can be experienced across Egypt.`,
       mission: 'Our mission is to promote sustainable sports tourism while highlighting Egypt\'s natural beauty and adventure potential.',
@@ -34,6 +34,18 @@ Our goal is to highlight these sports and the locations where they can be experi
       subtitle: 'Join fellow adventurers and create lasting memories',
       content: 'Connect with like-minded travelers, participate in group activities, and discover Egypt\'s hidden gems together. Our community events bring together sports enthusiasts from around the world.',
       joinEvents: 'Join Our Events',
+      groupActivities: {
+        title: 'Group Activities',
+        description: 'Join organized sports events and meetups',
+      },
+      regularEvents: {
+        title: 'Regular Events',
+        description: 'Weekly and monthly sports gatherings',
+      },
+      multipleLocations: {
+        title: 'Multiple Locations',
+        description: 'Events across Egypt\'s best sports destinations',
+      },
     },
     timeline: {
       title: 'Our Journey',
@@ -46,8 +58,8 @@ Our goal is to highlight these sports and the locations where they can be experi
         },
         {
           year: '2024 DEC',
-          title: 'First 1000 Adventures',
-          description: 'Reached our first milestone of 1000 successful bookings'
+          title: 'First 100 Adventures',
+          description: 'Reached our first milestone of 100 successful bookings'
         },
         {
           year: '2025 JUN',
@@ -61,8 +73,8 @@ Our goal is to highlight these sports and the locations where they can be experi
         },
         {
           year: '2025 JUN',
-          title: '10,000+ Happy Adventurers',
-          description: 'Celebrating over 10,000 successful adventure experiences'
+          title: '300+ Happy Adventurers',
+          description: 'Celebrating over200 successful adventure experiences'
         }
       ]
     },
@@ -178,7 +190,7 @@ Our goal is to highlight these sports and the locations where they can be experi
     about: {
       title: 'عن سبورتور',
       content: `احنا مجموعة من الشباب فكرنا ازاي نغير مفهوم السياحة في مصر
- فـ اختارنا نروج للسياحة الرياضية الـ ناس كتير متعرفش تفاصيل عنها وبنوصل رسالة للعالم ان مصر فيها اماكن تاريخية وواجهة سياحية 
+فـ اختارنا نروج للسياحة الرياضية الـ ناس كتير متعرفش تفاصيل عنها وبنوصل رسالة للعالم ان مصر فيها اماكن تاريخية وواجهة سياحية 
 لكن كمان يقدروا يجمعوا بين السياحة والرياضة في بلد واحدة
 وهدفنا اننا نبرز الرياضات دي وأماكن تواجدها في مصر
 `,
@@ -197,6 +209,18 @@ Our goal is to highlight these sports and the locations where they can be experi
       subtitle: 'انضم لرفاق المغامرة واصنع ذكريات لا تُنسى',
       content: 'تواصل مع المسافرين ذوي التفكير المشابه، شارك في الأنشطة الجماعية، واكتشف جواهر مصر المخفية معًا. فعالياتنا المجتمعية تجمع عشاق الرياضة من جميع أنحاء العالم.',
       joinEvents: 'انضم لفعالياتنا',
+      groupActivities: {
+        title: 'أنشطة جماعية',
+        description: 'انضم إلى الفعاليات الرياضية المنظمة واللقاءات',
+      },
+      regularEvents: {
+        title: 'فعاليات منتظمة',
+        description: 'تجمعات رياضية أسبوعية وشهرية',
+      },
+      multipleLocations: {
+        title: 'مواقع متعددة',
+        description: 'فعاليات في أفضل الوجهات الرياضية في مصر',
+      },
     },
     timeline: {
       title: 'رحلتنا',
@@ -209,8 +233,8 @@ Our goal is to highlight these sports and the locations where they can be experi
         },
         {
           year: '2024 DEC',
-          title: 'أول 1000 مغامرة',
-          description: 'وصلنا لأول معلم بـ 1000 حجز ناجح'
+          title: 'أول 100 مغامرة',
+          description: 'وصلنا لأول معلم بـ 100 حجز ناجح'
         },
         {
           year: '2025 JUN',
@@ -224,8 +248,8 @@ Our goal is to highlight these sports and the locations where they can be experi
         },
         {
           year: '2025 JUN',
-          title: 'أكثر من 10,000 مغامر سعيد',
-          description: 'نحتفل بأكثر من 10,000 تجربة مغامرة ناجحة'
+          title: 'أكثر من 300  مغامر سعيد',
+          description: 'نحتفل بأكثر من200 تجربة مغامرة ناجحة'
         }
       ]
     },
