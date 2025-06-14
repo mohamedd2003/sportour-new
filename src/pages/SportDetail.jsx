@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, MapPin, Star, Clock, Users, Award, CheckCircle, XCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, MapPin, Star, Clock, Users, Award, CheckCircle, XCircle, ArrowRight } from 'lucide-react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import { useLanguage } from '../contexts/LanguageContext';
@@ -387,14 +387,18 @@ const SportDetail = () => {
                     </span>
                   </div>
 
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    onClick={() => navigate('/booking-confirmation')}
-                    className="w-full py-4 text-xl font-semibold text-white transition duration-300 rounded-lg bg-gradient-primary hover:bg-primary-700"
-                  >
-                    {t.sportDetails.bookNow}
-                  </motion.button>
+                  <div className="flex space-x-3">
+                    <Link
+                      to={`/booking-confirmation`}
+                      state={{ bookedSportName: sport.name, bookedSportId: sport.id }}
+                      className="inline-flex items-center justify-center flex-1 px-4 py-3 space-x-2 font-semibold text-white transition-opacity shadow-lg bg-gradient-primary rounded-xl hover:opacity-90"
+                    >
+                      <span>{t.sports.book}</span>
+                      <ArrowRight size={16} />
+                    </Link>
+                    
+                  
+                  </div>
 
                   <div className="text-sm text-center text-secondary-500">
                     Free cancellation up to 24 hours before

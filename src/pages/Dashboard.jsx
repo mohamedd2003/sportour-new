@@ -2,6 +2,20 @@ import { motion } from 'framer-motion';
 import { Calendar, Users, TrendingUp, DollarSign, Eye, Filter } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../data/translations';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, ArcElement } from 'chart.js';
+import { Line, Bar, Doughnut } from 'react-chartjs-2';
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement
+);
 
 const Dashboard = () => {
   const { language } = useLanguage();
@@ -81,6 +95,106 @@ const Dashboard = () => {
       amount: 300
     }
   ];
+
+  // Chart data
+  const revenueData = {
+    labels: [t.dashboard.months.jan, t.dashboard.months.feb, t.dashboard.months.mar, t.dashboard.months.apr, t.dashboard.months.may, t.dashboard.months.jun, t.dashboard.months.jul, t.dashboard.months.aug, t.dashboard.months.sep, t.dashboard.months.oct, t.dashboard.months.nov, t.dashboard.months.dec],
+    datasets: [
+      {
+        label: t.dashboard.revenueTrends,
+        data: [300, 400, 350, 500, 450, 600, 550, 700, 650, 800, 750, 900],
+        borderColor: 'rgba(158, 142, 120, 1)',
+        backgroundColor: 'rgba(158, 142, 120, 0.2)',
+        fill: true,
+        tension: 0.3,
+      },
+    ],
+  };
+
+  const sportsData = {
+    labels: [t.dashboard.sportsLabels.paramotor, t.dashboard.sportsLabels.diving, t.dashboard.sportsLabels.kitesurfing, t.dashboard.sportsLabels.hiking, t.dashboard.sportsLabels.sandboarding],
+    datasets: [
+      {
+        label: t.dashboard.popularSports,
+        data: [250, 180, 220, 150, 300],
+        backgroundColor: [
+          'rgba(158, 142, 120, 0.8)',
+          'rgba(69, 97, 97, 0.8)',
+          'rgba(200, 180, 150, 0.8)',
+          'rgba(100, 120, 120, 0.8)',
+          'rgba(220, 200, 180, 0.8)',
+        ],
+        borderColor: [
+          'rgba(158, 142, 120, 1)',
+          'rgba(69, 97, 97, 1)',
+          'rgba(200, 180, 150, 1)',
+          'rgba(100, 120, 120, 1)',
+          'rgba(220, 200, 180, 1)',
+        ],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const chartOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#4A5568', // text-secondary-700
+        },
+      },
+      title: {
+        display: false,
+      },
+      tooltip: {
+        callbacks: {
+          title: function(context) {
+            if (context[0].dataset.label === t.dashboard.revenueTrends) {
+              return context[0].label;
+            } else {
+              return context[0].label;
+            }
+          },
+          label: function(context) {
+            let label = context.dataset.label || '';
+            if (label) {
+              label += ': ';
+            }
+            if (context.parsed.y !== null) {
+              label += new Intl.NumberFormat(language === 'ar' ? 'ar-EG' : 'en-US', { style: 'currency', currency: 'EGP' }).format(context.parsed.y);
+            } else if (context.parsed.x !== null) {
+              label += context.parsed.x; // For bar chart
+            }
+            return label;
+          }
+        }
+      }
+    },
+    scales: {
+      y: {
+        ticks: {
+          color: '#718096', // text-secondary-600
+          callback: function(value) {
+            return new Intl.NumberFormat(language === 'ar' ? 'ar-EG' : 'en-US', { style: 'currency', currency: 'EGP', maximumFractionDigits: 0 }).format(value);
+          }
+        },
+        grid: {
+          color: '#E2E8F0', // primary-100
+        },
+      },
+      x: {
+        ticks: {
+          color: '#718096', // text-secondary-600
+        },
+        grid: {
+          color: '#E2E8F0', // primary-100
+        },
+      },
+    },
+  };
 
   const getStatusColor = (status) => {
     switch (status) {
@@ -243,29 +357,29 @@ const Dashboard = () => {
 
         {/* Charts Section */}
         <div className="grid lg:grid-cols-2 gap-8 mt-8">
-          {/* Revenue Chart Placeholder */}
+          {/* Revenue Chart */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
             className="bg-white rounded-2xl p-6 shadow-lg border border-primary-100"
           >
-            <h3 className="text-xl font-bold text-secondary-800 mb-4">Revenue Trends</h3>
-            <div className="h-64 bg-gradient-light rounded-lg flex items-center justify-center">
-              <p className="text-secondary-500">Chart visualization would go here</p>
+            <h3 className="text-xl font-bold text-secondary-800 mb-4">{t.dashboard.revenueTrends}</h3>
+            <div className="h-64">
+              <Line data={revenueData} options={chartOptions} />
             </div>
           </motion.div>
 
-          {/* Popular Sports Placeholder */}
+          {/* Popular Sports Chart */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
             className="bg-white rounded-2xl p-6 shadow-lg border border-primary-100"
           >
-            <h3 className="text-xl font-bold text-secondary-800 mb-4">Popular Sports</h3>
-            <div className="h-64 bg-gradient-light rounded-lg flex items-center justify-center">
-              <p className="text-secondary-500">Chart visualization would go here</p>
+            <h3 className="text-xl font-bold text-secondary-800 mb-4">{t.dashboard.popularSports}</h3>
+            <div className="h-64">
+              <Bar data={sportsData} options={chartOptions} />
             </div>
           </motion.div>
         </div>
