@@ -279,13 +279,13 @@ export const sportsData = {
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-2 people',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-17-06_uy4pvp.jpg',
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-17-06_uy4pvp.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860242/photo_2025-06-14_03-17-10_u2vc3u.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860240/photo_2025-06-14_03-16-56_jsdcnd.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-16-59_uhsufx.jpg'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -484,7 +484,7 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '3 hours',
       difficulty: 'Beginner',
       groupSize: '2-8 people',
-      image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-22_t8wvoe.jpg',
       locations: [
         "Nile River - Cairo",
         "Egyptian Rowing Club (Zamalek)",
@@ -494,10 +494,10 @@ With Sportour, you can find where to play, book easily, and get our top recommen
         "Luxor"
       ],
       gallery: [
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-22_t8wvoe.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860107/photo_2025-06-14_03-12-12_qzfsyh.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-26_trm05h.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860105/photo_2025-06-14_03-12-17_orsall.jpg'
       ],
       includes: ['Rowing boat and oars', 'Life jackets', 'Experienced guide', 'Water and snacks'],
       excludes: ['Meals', 'Hotel pickup', 'Gratuities'],
@@ -937,13 +937,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '1 ساعات',
       difficulty: 'متوسط',
       groupSize: '1-2 أشخاص',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-17-06_uy4pvp.jpg',
       locations: ['دهب', 'بورسعيد', 'نزله السمان (الاهرامات)', "راس سدر"],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-17-06_uy4pvp.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860242/photo_2025-06-14_03-17-10_u2vc3u.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860240/photo_2025-06-14_03-16-56_jsdcnd.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860241/photo_2025-06-14_03-16-59_uhsufx.jpg'
       ],
       includes: ['مدرب محترف', 'جميع معدات السلامة', 'تغطية التأمين', 'خدمة التصوير'],
       excludes: ['النقل إلى الموقع', 'الوجبات', 'المصروفات الشخصية'],
@@ -1145,7 +1145,7 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       duration: '3 ساعات',
       difficulty: 'مبتدئ',
       groupSize: '2-8 أشخاص',
-      image: 'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-22_t8wvoe.jpg',
       locations: [
         "نهر النيل - القاهرة",
         "نادي التجديف المصري (الزمالك)",
@@ -1155,10 +1155,10 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
         "الأقصر"
       ],
       gallery: [
-        'https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg',
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg',
-        'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-22_t8wvoe.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860107/photo_2025-06-14_03-12-12_qzfsyh.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860106/photo_2025-06-14_03-12-26_trm05h.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749860105/photo_2025-06-14_03-12-17_orsall.jpg'
       ],
       includes: ['قارب تجديف ومجاذيف', 'سترات نجاة', 'مرشد خبير', 'ماء ووجبات خفيفة'],
       excludes: ['وجبات', 'خدمة توصيل من الفندق', 'بقشيش'],
