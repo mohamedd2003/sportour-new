@@ -84,7 +84,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-[#456161]">
                     {t.contact.email}
                   </h3>
-                  <p className="text-[#9e8e78]">info@egyptadventures.com</p>
+                  <p className="text-[#9e8e78]">sportour2025@gmail.com</p>
                 </div>
               </div>
 
@@ -143,7 +143,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent bg-white"
                 />
               </div>
 
@@ -158,7 +158,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent bg-white"
                 />
               </div>
 
@@ -173,7 +173,7 @@ const Contact = () => {
                   onChange={handleChange}
                   rows="4"
                   required
-                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-[#e1dbd1] rounded-lg focus:ring-2 focus:ring-[#9e8e78] focus:border-transparent bg-white"
                 ></textarea>
               </div>
 
