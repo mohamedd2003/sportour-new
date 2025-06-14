@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-light py-12">
+    <div className="min-h-screen bg-gradient-light py-20">
       {/* Toast Notification */}
       {showToast && (
         <div className="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-fade-in">
