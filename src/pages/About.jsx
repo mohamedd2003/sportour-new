@@ -10,12 +10,12 @@ const About = () => {
   const stats = [
     {
       icon: Users,
-      value: '10,000+',
+      value: '300+',
       label: t.aboutPage.happyCustomers
     },
     {
       icon: Award,
-      value: '15+',
+      value: '1+',
       label: t.aboutPage.yearsExperience
     },
     {
@@ -125,73 +125,74 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-white">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="mb-12 text-center"
-          >
-            <h2 className="text-3xl font-bold text-[#456161] mb-4">
-              {t.aboutPage.ourTeam}
-            </h2>
-            <p className="text-xl text-[#9e8e78]">
-              {t.aboutPage.teamSubtitle}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                name: t.aboutPage.teamMember1Name,
-                role: t.aboutPage.teamMember1Role,
-                bio: t.aboutPage.teamMember1Bio,
-                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              },
-              {
-                name: t.aboutPage.teamMember2Name,
-                role: t.aboutPage.teamMember2Role,
-                bio: t.aboutPage.teamMember2Bio,
-                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              },
-              {
-                name: t.aboutPage.teamMember3Name,
-                role: t.aboutPage.teamMember3Role,
-                bio: t.aboutPage.teamMember3Bio,
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-              }
-            ].map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="p-6 text-center shadow-lg bg-gradient-light rounded-2xl hover-lift"
-              >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#9e8e78]">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-                <h3 className="text-xl font-bold text-[#456161] mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-[#9e8e78] mb-4">
-                  {member.role}
-                </p>
-                <p className="text-[#9e8e78]">
-                  {member.bio}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+   
     </div>
   );
 };
 
 export default About; 
+   {/* Team Section */}
+   <section className="py-16 bg-white">
+   <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+     <motion.div
+       initial={{ opacity: 0, y: 20 }}
+       animate={{ opacity: 1, y: 0 }}
+       className="mb-12 text-center"
+     >
+       <h2 className="text-3xl font-bold text-[#456161] mb-4">
+         {t.aboutPage.ourTeam}
+       </h2>
+       <p className="text-xl text-[#9e8e78]">
+         {t.aboutPage.teamSubtitle}
+       </p>
+     </motion.div>
+
+     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+       {[
+         {
+           name: t.aboutPage.teamMember1Name,
+           role: t.aboutPage.teamMember1Role,
+           bio: t.aboutPage.teamMember1Bio,
+           image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+         },
+         {
+           name: t.aboutPage.teamMember2Name,
+           role: t.aboutPage.teamMember2Role,
+           bio: t.aboutPage.teamMember2Bio,
+           image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+         },
+         {
+           name: t.aboutPage.teamMember3Name,
+           role: t.aboutPage.teamMember3Role,
+           bio: t.aboutPage.teamMember3Bio,
+           image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+         }
+       ].map((member, index) => (
+         <motion.div
+           key={index}
+           initial={{ opacity: 0, y: 20 }}
+           animate={{ opacity: 1, y: 0 }}
+           transition={{ delay: index * 0.1 }}
+           className="p-6 text-center shadow-lg bg-gradient-light rounded-2xl hover-lift"
+         >
+           <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#9e8e78]">
+             <img
+               src={member.image}
+               alt={member.name}
+               className="object-cover w-full h-full"
+             />
+           </div>
+           <h3 className="text-xl font-bold text-[#456161] mb-2">
+             {member.name}
+           </h3>
+           <p className="text-[#9e8e78] mb-4">
+             {member.role}
+           </p>
+           <p className="text-[#9e8e78]">
+             {member.bio}
+           </p>
+         </motion.div>
+       ))}
+     </div>
+   </div>
+ </section>
