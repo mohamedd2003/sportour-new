@@ -33,9 +33,9 @@ const Footer = () => {
             <div className="flex space-x-4">
       
               <motion.a
-                whileHover={{ scale: 1.1 }}
+                whileHover={{scale: 1.1}}
                 target="_blank"
-               href="https://www.instagram.com/sportour.campaign?igsh=MTExcXptd3p3c3FuNw=="
+               href="https://www.instagram.com/sportour.eg_?igsh=MTExcXptd3p3c3FuNw=="
                 className="flex items-center justify-center w-10 h-10 transition-opacity rounded-full bg-gradient-primary hover:opacity-80"
               >
                 <Instagram size={20} />
