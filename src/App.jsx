@@ -17,9 +17,20 @@ const BookingConfirmation = lazy(() => import('./pages/BookingConfirmation'));
 
 function App() {
   return (
+    <div className='flex items-center justify-center h-screen'>
+    <div className="w-[150px] h-20">
+      <span className="loading loading-infinity text-[#9e8e78] w-full "></span>
+    </div>
+        </div>
+   
+  );
+}
+
+export default App;
+ {/*
     <LanguageProvider>
       <Router>
-        <div className="min-h-screen">
+        <div className="min-h-screen ">
           <Navbar />
           <main>
             <Suspense fallback={<LazyLoading />}>
@@ -38,7 +49,4 @@ function App() {
         </div>
       </Router>
     </LanguageProvider>
-  );
-}
-
-export default App;
+    */}
