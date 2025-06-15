@@ -62,7 +62,7 @@ Our goal is to highlight these sports and the locations where they can be experi
           description: 'Reached our first milestone of 100 successful bookings'
         },
         {
-          year: '2025 JUN',
+          year: '2025 JAN',
           title: 'International Recognition',
           description: 'Won Best Sports Tourism Platform in MENA region'
         },
@@ -203,7 +203,7 @@ Our goal is to highlight these sports and the locations where they can be experi
       destinations: 'Destinations',
       satisfaction: 'Customer Satisfaction',
       ourStory: 'Our Story',
-      storyContent: 'Founded in 2008, Egypt Adventures has been at the forefront of adventure tourism in Egypt. We combine local expertise with international standards to create unique and memorable experiences for our guests.',
+      storyContent: 'Founded in 2024, Egypt Adventures has been at the forefront of adventure tourism in Egypt. We combine local expertise with international standards to create unique and memorable experiences for our guests.',
       ourMission: 'Our Mission',
       missionContent: 'To showcase the beauty and excitement of Egypt through safe, sustainable, and unforgettable adventure experiences that connect people with nature and culture.',
       ourTeam: 'Our Team',
@@ -297,7 +297,7 @@ Our goal is to highlight these sports and the locations where they can be experi
           description: 'وصلنا لأول معلم بـ 100 حجز ناجح'
         },
         {
-          year: '2025 JUN',
+          year: '2025 JAN',
           title: 'اعتراف دولي',
           description: 'فزنا بجائزة أفضل منصة سياحة رياضية في المنطقة'
         },
@@ -438,7 +438,7 @@ Our goal is to highlight these sports and the locations where they can be experi
       destinations: 'وجهات',
       satisfaction: 'رضا العملاء',
       ourStory: 'قصتنا',
-      storyContent: 'تأسست مغامرات مصر في عام ٢٠٠٨، وقد كنا في طليعة السياحة المغامرة في مصر. نجمع بين الخبرة المحلية والمعايير الدولية لخلق تجارب فريدة لا تُنسى لضيوفنا.',
+      storyContent: 'تأسست مغامرات مصر في عام 2024، وقد كنا في طليعة السياحة المغامرة في مصر. نجمع بين الخبرة المحلية والمعايير الدولية لخلق تجارب فريدة لا تُنسى لضيوفنا.',
       ourMission: 'مهمتنا',
       missionContent: 'إظهار جمال وإثارة مصر من خلال تجارب مغامرة آمنة ومستدامة لا تُنسى تربط الناس بالطبيعة والثقافة.',
       ourTeam: 'فريقنا',

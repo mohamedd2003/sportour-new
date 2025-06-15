@@ -17,36 +17,36 @@ const BookingConfirmation = lazy(() => import('./pages/BookingConfirmation'));
 
 function App() {
   return (
-    <div className='flex items-center justify-center h-screen'>
-    <div className="w-[150px] h-20  rotate-90   flex items-center justify-center">
-      <span className="loading loading-infinity text-[#9e8e78] w-full  "></span>
-    </div>
-        </div>
-   
+    <LanguageProvider>
+    <Router>
+      <div className="min-h-screen ">
+        <Navbar />
+        <main>
+          <Suspense fallback={<LazyLoading />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/sports" element={<SportsListing />} />
+              <Route path="/sports/:sportName" element={<SportDetail />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/booking-confirmation" element={<BookingConfirmation />} />
+            </Routes>
+          </Suspense>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  </LanguageProvider>
   );
 }
 
 export default App;
- {/*
-    <LanguageProvider>
-      <Router>
-        <div className="min-h-screen ">
-          <Navbar />
-          <main>
-            <Suspense fallback={<LazyLoading />}>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/sports" element={<SportsListing />} />
-                <Route path="/sports/:sportName" element={<SportDetail />} />
-                <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/booking-confirmation" element={<BookingConfirmation />} />
-              </Routes>
-            </Suspense>
-          </main>
-          <Footer />
-        </div>
-      </Router>
-    </LanguageProvider>
+{ /*<div className='flex items-center justify-center h-screen'>
+ <div className="w-[150px] h-20  rotate-90   flex items-center justify-center">
+   <span className="loading loading-infinity text-[#9e8e78] w-full  "></span>
+ </div>
+     </div>*/}
+{/*
+   
     */}

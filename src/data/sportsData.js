@@ -380,13 +380,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-      locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703295_yvbejg.avif',
+      locations: ['Dahab', 'North Coast', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703295_yvbejg.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/young-man-extreme-jumping-with-bicycle_23-2148288430_dm1vtd.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/sports-man-riding-bike-summer-forest_1157-34137_sf3dem.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703294_txujij.avif'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
@@ -1041,13 +1041,13 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       duration: '1 hours',
       difficulty: 'Intermediate',
       groupSize: '1-12 people',
-      image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703295_yvbejg.avif',
       locations: ['Dahab', 'Nazlet El-Semman (Pyramids)', 'Ras Sudr', 'Port Said'],
       gallery: [
-        'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854095/photo_2025-06-14_01-34-32_whva9f.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854788/photo_2025-06-14_01-46-14_ra2kki.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703295_yvbejg.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/young-man-extreme-jumping-with-bicycle_23-2148288430_dm1vtd.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/sports-man-riding-bike-summer-forest_1157-34137_sf3dem.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749984853/professional-cyclist-women_23-2149703294_txujij.avif'
       ],
       includes: ['Professional instructor', 'All safety equipment', 'Insurance coverage', 'Photo/video service'],
       excludes: ['Transportation to site', 'Meals', 'Personal expenses'],
