@@ -46,7 +46,7 @@ const Dashboard = () => {
     },
     {
       title: t.dashboard.revenue,
-      value: '₹2.4M',
+      value: '20k LE',
       change: '+23%',
       icon: DollarSign,
       color: 'bg-gradient-secondary'
@@ -224,14 +224,14 @@ const Dashboard = () => {
 
   return (
     <div className={`min-h-screen bg-gradient-light pt-20 ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="mb-8"
         >
-          <h1 className="text-4xl font-bold text-secondary-800 mb-2">
+          <h1 className="mb-2 text-4xl font-bold text-secondary-800">
             {t.dashboard.title}
           </h1>
           <p className="text-secondary-600">
@@ -240,20 +240,20 @@ const Dashboard = () => {
         </motion.div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 gap-6 mb-8 md:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-2xl p-6 shadow-lg border border-primary-100"
+              className="p-6 bg-white border shadow-lg rounded-2xl border-primary-100"
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-secondary-600 text-sm font-medium">{stat.title}</p>
-                  <p className="text-3xl font-bold text-secondary-800 mt-2">{stat.value}</p>
-                  <p className="text-green-600 text-sm font-medium mt-1">{stat.change}</p>
+                  <p className="text-sm font-medium text-secondary-600">{stat.title}</p>
+                  <p className="mt-2 text-3xl font-bold text-secondary-800">{stat.value}</p>
+                  <p className="mt-1 text-sm font-medium text-green-600">{stat.change}</p>
                 </div>
                 <div className={`${stat.color} p-3 rounded-full`}>
                   <stat.icon className="text-white" size={24} />
@@ -268,7 +268,7 @@ const Dashboard = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="bg-white rounded-2xl shadow-lg border border-primary-100 overflow-hidden"
+          className="overflow-hidden bg-white border shadow-lg rounded-2xl border-primary-100"
         >
           <div className="p-6 border-b border-primary-100">
             <div className="flex items-center justify-between">
@@ -276,11 +276,11 @@ const Dashboard = () => {
                 {t.dashboard.recentBookings}
               </h2>
               <div className="flex items-center space-x-3">
-                <button className="flex items-center space-x-2 px-4 py-2 bg-primary-100 text-primary-700 rounded-lg hover:bg-primary-200 transition-colors">
+                <button className="flex items-center px-4 py-2 space-x-2 transition-colors rounded-lg bg-primary-100 text-primary-700 hover:bg-primary-200">
                   <Filter size={16} />
                   <span>Filter</span>
                 </button>
-                <button className="flex items-center space-x-2 px-4 py-2 bg-gradient-primary text-white rounded-lg hover:opacity-90 transition-opacity">
+                <button className="flex items-center px-4 py-2 space-x-2 text-white transition-opacity rounded-lg bg-gradient-primary hover:opacity-90">
                   <Eye size={16} />
                   <span>{t.dashboard.viewAll}</span>
                 </button>
@@ -292,19 +292,19 @@ const Dashboard = () => {
             <table className="w-full">
               <thead className="bg-primary-50">
                 <tr>
-                  <th className="px-6 py-4 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                  <th className="px-6 py-4 text-xs font-medium tracking-wider text-left uppercase text-secondary-500">
                     {t.dashboard.customerName}
                   </th>
-                  <th className="px-6 py-4 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                  <th className="px-6 py-4 text-xs font-medium tracking-wider text-left uppercase text-secondary-500">
                     {t.dashboard.sport}
                   </th>
-                  <th className="px-6 py-4 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                  <th className="px-6 py-4 text-xs font-medium tracking-wider text-left uppercase text-secondary-500">
                     {t.dashboard.date}
                   </th>
-                  <th className="px-6 py-4 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                  <th className="px-6 py-4 text-xs font-medium tracking-wider text-left uppercase text-secondary-500">
                     {t.dashboard.status}
                   </th>
-                  <th className="px-6 py-4 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                  <th className="px-6 py-4 text-xs font-medium tracking-wider text-left uppercase text-secondary-500">
                     {t.dashboard.amount}
                   </th>
                 </tr>
@@ -316,12 +316,12 @@ const Dashboard = () => {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.5 + index * 0.1 }}
-                    className="hover:bg-primary-25 transition-colors"
+                    className="transition-colors hover:bg-primary-25"
                   >
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center">
-                        <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-                          <span className="text-white font-semibold text-sm">
+                        <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-primary">
+                          <span className="text-sm font-semibold text-white">
                             {booking.customerName.charAt(0)}
                           </span>
                         </div>
@@ -356,15 +356,15 @@ const Dashboard = () => {
         </motion.div>
 
         {/* Charts Section */}
-        <div className="grid lg:grid-cols-2 gap-8 mt-8">
+        <div className="grid gap-8 mt-8 lg:grid-cols-2">
           {/* Revenue Chart */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="bg-white rounded-2xl p-6 shadow-lg border border-primary-100"
+            className="p-6 bg-white border shadow-lg rounded-2xl border-primary-100"
           >
-            <h3 className="text-xl font-bold text-secondary-800 mb-4">{t.dashboard.revenueTrends}</h3>
+            <h3 className="mb-4 text-xl font-bold text-secondary-800">{t.dashboard.revenueTrends}</h3>
             <div className="h-64">
               <Line data={revenueData} options={chartOptions} />
             </div>
@@ -375,9 +375,9 @@ const Dashboard = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
-            className="bg-white rounded-2xl p-6 shadow-lg border border-primary-100"
+            className="p-6 bg-white border shadow-lg rounded-2xl border-primary-100"
           >
-            <h3 className="text-xl font-bold text-secondary-800 mb-4">{t.dashboard.popularSports}</h3>
+            <h3 className="mb-4 text-xl font-bold text-secondary-800">{t.dashboard.popularSports}</h3>
             <div className="h-64">
               <Bar data={sportsData} options={chartOptions} />
             </div>
