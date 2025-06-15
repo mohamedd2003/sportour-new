@@ -434,13 +434,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '4 hours',
       difficulty: 'Beginner',
       groupSize: '2-10 people',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg',
       locations: ['Siwa Oasis', 'Farafra', 'Great Sand Sea', 'Bahariya Oasis'],
       gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854634/photo_2025-06-14_01-43-31_kmf80b.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854634/photo_2025-06-14_01-43-31_kmf80b.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986552/shallow-focus-shot-attractive-female-sitting-sandy-hill-with-surfboard-side_181624-24005_uqr2js.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986552/long-shot-woman-walking-desert_23-2149408683_kovdjl.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg'
       ],
       includes: ['Sandboard and wax', 'Safety helmet', 'Desert guide', 'Refreshments', '4WD transportation'],
       excludes: ['Meals', 'Accommodation', 'Personal protective gear'],
@@ -1095,13 +1095,13 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       duration: '4 ساعات',
       difficulty: 'مبتدئ',
       groupSize: '2-10 أشخاص',
-      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg',
       locations: ['واحة سيوة', 'الفرافرة', 'بحر الرمال العظيم', 'واحة البحرية'],
       gallery: [
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854634/photo_2025-06-14_01-43-31_kmf80b.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854632/photo_2025-06-14_01-43-27_si24vz.jpg',
-        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749854634/photo_2025-06-14_01-43-31_kmf80b.jpg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986552/shallow-focus-shot-attractive-female-sitting-sandy-hill-with-surfboard-side_181624-24005_uqr2js.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986552/long-shot-woman-walking-desert_23-2149408683_kovdjl.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986553/low-angle-shot-female-jumping-sandy-hill-with-surfboard-side_181624-30786_drpj66.jpg'
       ],
       includes: ['لوح تزلج وشمع', 'خوذة أمان', 'دليل صحراوي', 'مرطبات', 'سيارة دفع رباعي'],
       excludes: ['الوجبات', 'الإقامة', 'معدات الحماية الشخصية'],
