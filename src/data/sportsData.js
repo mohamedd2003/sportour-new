@@ -604,13 +604,13 @@ With Sportour, you can find where to play, book easily, and get our top recommen
       duration: '8 hours',
       difficulty: 'Advanced',
       groupSize: '2-4 people',
-      image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/portrait-scuba-diver-sea-water-with-marine-life_23-2151456174_dtccne.avif',
       locations: ['Ras Mohammed', 'Abu Nuhas', 'Straits of Tiran', 'Brothers Islands'],
       gallery: [
-        'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-        'https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg',
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/portrait-scuba-diver-sea-water-with-marine-life_23-2151456174_dtccne.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986270/man-swimming-ocean_23-2149066304_wq8uwy.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/diver-sea-surrounded-by-archeological-building-ruins_23-2151571569_xizjwp.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986264/divers-examining-famous-uss-kittiwake-submarine-wreck-grand-cayman-islands_181624-46425_ru1o3a.avif'
       ],
       includes: ['Technical diving equipment', 'Wreck specialist guide', 'Boat charter', 'Emergency oxygen'],
       excludes: ['Advanced certification course', 'Nitrox fills', 'Underwater lights'],
@@ -1253,13 +1253,13 @@ Sportour بتوصلك باللي بينظموا الجولات، وبتوفرل�
       duration: '8 ساعات',
       difficulty: 'متقدم',
       groupSize: '2-4 أشخاص',
-      image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
+      image: 'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/portrait-scuba-diver-sea-water-with-marine-life_23-2151456174_dtccne.avif',
       locations: ['رأس محمد', 'أبو نحاس', 'مضيق تيران', 'جزر الأخوان'],
       gallery: [
-        'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg',
-        'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
-        'https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg',
-        'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg'
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/portrait-scuba-diver-sea-water-with-marine-life_23-2151456174_dtccne.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986270/man-swimming-ocean_23-2149066304_wq8uwy.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986265/diver-sea-surrounded-by-archeological-building-ruins_23-2151571569_xizjwp.avif',
+        'https://res.cloudinary.com/dnovlrm3u/image/upload/v1749986264/divers-examining-famous-uss-kittiwake-submarine-wreck-grand-cayman-islands_181624-46425_ru1o3a.avif'
       ],
       includes: ['معدات غوص تقنية', 'مرشد متخصص في حطام السفن', 'تأجير قارب', 'أكسجين طوارئ'],
       excludes: ['دورة شهادة متقدمة', 'عبوات نيتروكس', 'أضواء تحت الماء'],
