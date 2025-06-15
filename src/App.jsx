@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LazyLoading from './components/LazyLoading/LazyLoading';
 import './index.css';
-
+import { Analytics } from '@vercel/analytics/react';
 // Lazy load all page components
 const Home = lazy(() => import('./pages/Home'));
 const SportDetail = lazy(() => import('./pages/SportDetail'));
@@ -19,6 +19,7 @@ function App() {
   return (
     <LanguageProvider>
     <Router>
+      
       <div className="min-h-screen ">
         <Navbar />
         <main>
@@ -36,6 +37,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics></Analytics>
     </Router>
   </LanguageProvider>
   );
